@@ -148,7 +148,7 @@ def main():
         pages = len(PdfReader(pdf).pages)
         if not 4 <= pages <= 8:
             raise ValueError(f'Course page constraint failed: {pages} pages')
-        shutil.copyfile(pdf, HERE / 'report.pdf')
+        shutil.copyfile(pdf, ROOT / 'report.pdf')
         version = subprocess.run([str(args.compiler), '--version'], capture_output=True, text=True).stdout.strip()
         receipt = {
             'pdf_pages': pages,

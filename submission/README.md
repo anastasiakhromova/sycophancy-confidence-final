@@ -2,7 +2,7 @@
 
 ## Files
 
-- `report.pdf` - eight-page English article compiled from `paper.tex` using the official Springer Nature `sn-jnl` class.
+- `../report.pdf` - eight-page English article compiled from `paper.tex` using the official Springer Nature `sn-jnl` class.
 - `paper.tex` - editable standalone LaTeX source, with the unchanged official class and its licence embedded.
 - `manuscript.json` - editable article content.
 - `build_paper.py` - source generation, real LaTeX compilation and four-to-eight-page check.
