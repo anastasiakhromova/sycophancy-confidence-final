@@ -1,0 +1,72 @@
+{
+  "budget": {
+    "cost_status": "usage-priced estimate; compare provider invoice",
+    "historical_reservations_checked": 150,
+    "limit_usd": 8.0,
+    "n_attempts": 150,
+    "observed_usage_cost_usd": 0.0029286,
+    "pricing_date": "2026-10-06",
+    "remaining_usd": 7.9970714,
+    "reserve_exceeded": false,
+    "review_ready": true,
+    "unresolved_reserved_usd": 0.0
+  },
+  "budget_exhausted": false,
+  "collection_complete": true,
+  "complete_text_responses": 150,
+  "completed_responses": 150,
+  "cost_limit_reached": false,
+  "fatal_error": null,
+  "incomplete_responses": 0,
+  "max_requests": 450,
+  "missing_response_ids": [],
+  "persisted_responses": 150,
+  "physical_attempts": 150,
+  "planned_responses": 150,
+  "remaining_responses": 0,
+  "run_dir": "C:\\Users\\oreho\\Documents\\Codex\\2026-10-06\\files-pasted-by-the-user-senior\\outputs\\sycophancy-confidence\\data\\runs\\baseline",
+  "run_id": "76d4df57-1247-412f-9249-185686ccb6de",
+  "status": "complete",
+  "successful_responses": 150,
+  "summary_fresh": true,
+  "timestamp": "2026-10-06T00:41:08.198837+00:00",
+  "usage": {
+    "cache_write_tokens": {
+      "observed_subtotal": 0,
+      "records_missing_usage": 0,
+      "records_with_usage": 150
+    },
+    "cached_input_tokens": {
+      "observed_subtotal": 0,
+      "records_missing_usage": 0,
+      "records_with_usage": 150
+    },
+    "global_budget": {
+      "cost_status": "usage-priced estimate; compare provider invoice",
+      "historical_reservations_checked": 150,
+      "limit_usd": 8.0,
+      "n_attempts": 150,
+      "observed_usage_cost_usd": 0.0029286,
+      "pricing_date": "2026-10-06",
+      "remaining_usd": 7.9970714,
+      "reserve_exceeded": false,
+      "review_ready": true,
+      "unresolved_reserved_usd": 0.0
+    },
+    "input_tokens": {
+      "observed_subtotal": 5916,
+      "records_missing_usage": 0,
+      "records_with_usage": 150
+    },
+    "output_tokens": {
+      "observed_subtotal": 4674,
+      "records_missing_usage": 0,
+      "records_with_usage": 150
+    },
+    "reasoning_tokens": {
+      "observed_subtotal": 166,
+      "records_missing_usage": 0,
+      "records_with_usage": 150
+    }
+  }
+}

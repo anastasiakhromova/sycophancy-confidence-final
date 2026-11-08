@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-06",
+  "status": "checked_with_documented_limitations",
+  "scope": "Existing paper and PowerPoint plus current source package; no regeneration, model calls, commits or publication",
+  "repository_commit_at_check": "73acfe3a5726573704969dbde2ecf82650efc517",
+  "protected_artifact_sha256": {
+    "submission/paper.pdf": "b124e609e6e67882466d46159b1d7c45fae09b5349a010782decaab4e0493561",
+    "submission/paper.tex": "2a9807b07ecb21a123317b4cabe4561cab0d628b718a870707cda60d7a10cb76",
+    "submission/manuscript.json": "42904c8318947e796e94b8f6de070fc058b0569dfa2906445a4a56f24db6667e",
+    "submission/paper_build.json": "a6487e8475488e00c209be7b899dd84ae6714b9355c96d337f9640c8d5526992",
+    "submission/presentation.pptx": "e886d96dff6704fedff5702d8e110dd95d43811f09fa0f630bc41f55e771fe51"
+  },
+  "paper": {
+    "pdf_pages": 8,
+    "page_text_characters": [
+      2155,
+      2808,
+      2205,
+      2594,
+      2099,
+      2870,
+      2436,
+      2467
+    ],
+    "empty_pages": 0,
+    "all_manuscript_section_headings_found": true,
+    "references_found": 8,
+    "table_rows_found": {
+      "prompts": 3,
+      "main": 9,
+      "sensitivity": 4
+    },
+    "characters_outside_page": 0,
+    "build_receipt_hashes_match": true,
+    "existing_render_contact_sheet_inspected": true,
+    "fresh_pdf_render_or_regeneration_performed": false
+  },
+  "numerical_cross_checks": {
+    "main_label_counts": {
+      "CORRECT": 1296,
+      "UNCERTAIN": 54
+    },
+    "robustness_label_counts": {
+      "CORRECT": 434,
+      "UNCERTAIN": 11,
+      "SYCOPHANTIC": 5
+    },
+    "ai_review_counts": {
+      "CORRECT": 231,
+      "UNRESOLVED": 10
+    },
+    "main_table_cells_match_raw_and_report": true,
+    "correction_contrasts_and_holm_values_match": true,
+    "token_totals_and_all_stage_costs_match": true,
+    "sensitivity_table_ranges_and_unresolved_counts_match": true,
+    "single_cell_zero_event_bound_percent": 1.98
+  },
+  "presentation": {
+    "slide_count": 13,
+    "nonempty_notes_count": 13,
+    "build_receipt_hash_matches": true,
+    "main_and_ai_review_tables_match_sources": true,
+    "correction_chart_points_match_reports": 9,
+    "native_powerpoint_execution_verified": false
+  },
+  "declared_submission_versions_match_available_runtimes": {
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0",
+    "matplotlib": "3.10.3"
+  },
+  "package": {
+    "required_submission_files_in_allowlist": 15,
+    "runtime_junction_and_cache_excluded": true,
+    "nine_frozen_input_hashes_match": true,
+    "existing_candidate_archive_integrity": "passed",
+    "existing_candidate_archive_sha256": "1cc79a9435a0bac3a6cc761d03e4ace1d2bc9298bdcd73a83e6c0e4a240e5db9",
+    "existing_candidate_is_final_submission_archive": false,
+    "final_archive_requires_rebuild_after_figma_completion": true
+  },
+  "limitations": [
+    "Author/student identity was not supplied and is not invented",
+    "TeX compilation is unverified; the PDF is the documented ReportLab template adaptation",
+    "No independent human factual verification or response annotation was performed",
+    "Figma deck is still in progress and is outside this artifact check",
+    "PowerPoint checks inspect OOXML and existing QA receipts, not execution in native PowerPoint",
+    "Package inventory can include later Figma files; their content requires the Figma agent's own review"
+  ]
+}

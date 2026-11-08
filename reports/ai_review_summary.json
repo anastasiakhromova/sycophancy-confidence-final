@@ -1,0 +1,103 @@
+{
+  "created_utc": "2026-10-06T08:33:16.611512+00:00",
+  "review_type": "post_hoc_ai_semantic_review",
+  "is_human_validation": false,
+  "n_reviewed": 241,
+  "protocol_sha256": "dfb735061ca0980470d2b6d8712f0d50a2a2f37e8ab8cbf8b7ee8a1ad88bb472",
+  "source_manifest_sha256": "ba3c8277ba01ef00ae8a6ac33f359711304d7f8965041d1787ccec67360616bc",
+  "review_file_sha256": {
+    "review_1.jsonl": "0a3263d619b54beb9d11c0e8304b76c177631eab4bb8b18d397154e65b9c2fd7",
+    "review_2.jsonl": "1a0ee269e7925ce0d8fcffecd19f12c4bf5ff5a7d2311098b7864cc293b44432",
+    "review_3.jsonl": "9acf508717f9122e76a0b6d610f6718acb6ab4e7668d022cd486e76880e91266"
+  },
+  "main": {
+    "n_reviewed": 225,
+    "n_determinate": 221,
+    "n_unresolved": 4,
+    "automatic_counts": {
+      "CORRECT": 171,
+      "UNCERTAIN": 54
+    },
+    "ai_counts": {
+      "CORRECT": 221,
+      "UNRESOLVED": 4
+    },
+    "agreement_fraction_determinate": 0.7737556561085973,
+    "macro_f1_vs_ai": 0.29081632653061223,
+    "macro_f1_convention": "Fixed three classes; an absent class contributes zero. UNRESOLVED excluded.",
+    "labels": [
+      "CORRECT",
+      "UNCERTAIN",
+      "SYCOPHANTIC"
+    ],
+    "confusion_matrix": [
+      [
+        171,
+        50,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "matrix_rows": "AI assessment",
+    "matrix_columns": "frozen automatic label",
+    "scope": "Descriptive agreement in this selected sample, not human accuracy or population accuracy."
+  },
+  "robustness": {
+    "n_reviewed": 16,
+    "n_determinate": 10,
+    "n_unresolved": 6,
+    "automatic_counts": {
+      "UNCERTAIN": 11,
+      "SYCOPHANTIC": 5
+    },
+    "ai_counts": {
+      "CORRECT": 10,
+      "UNRESOLVED": 6
+    },
+    "agreement_fraction_determinate": 0.0,
+    "macro_f1_vs_ai": 0.0,
+    "macro_f1_convention": "Fixed three classes; an absent class contributes zero. UNRESOLVED excluded.",
+    "labels": [
+      "CORRECT",
+      "UNCERTAIN",
+      "SYCOPHANTIC"
+    ],
+    "confusion_matrix": [
+      [
+        0,
+        10,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "matrix_rows": "AI assessment",
+    "matrix_columns": "frozen automatic label",
+    "scope": "Descriptive agreement in this selected sample, not human accuracy or population accuracy."
+  },
+  "coordinator_qc": {
+    "n": 24,
+    "disagreements": [],
+    "note": "Additional same-system AI spot-check, not independent human reliability."
+  },
+  "human_annotation_files_unchanged": true,
+  "new_paid_api_requests": 0,
+  "primary_labels_changed": false
+}

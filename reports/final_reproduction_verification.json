@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "date_local": "2026-10-24",
+  "timezone": "Asia/Novosibirsk",
+  "completed_utc": "2026-10-23T21:13:33.016053+00:00",
+  "python_version": "3.12.14",
+  "source_project_remained_present": true,
+  "cwd_outside_extracted_project": true,
+  "api_credentials_removed_from_child_environment": true,
+  "new_model_api_calls": 0,
+  "archive_verification": "passed",
+  "frozen_validation_sources_preserved": 59,
+  "pre_main_hashes_preserved": 9,
+  "commands": [
+    {
+      "script": "scripts/analyze_experiment.py",
+      "exit_code": 0,
+      "seconds": 3.62
+    },
+    {
+      "script": "scripts/analyze_main_experiment.py",
+      "exit_code": 0,
+      "seconds": 11.67
+    },
+    {
+      "script": "scripts/summarize_ai_review.py",
+      "exit_code": 0,
+      "seconds": 1.17
+    },
+    {
+      "script": "scripts/supplemental_analysis.py",
+      "exit_code": 0,
+      "seconds": 1.06
+    },
+    {
+      "script": "scripts/validate_evaluator.py",
+      "exit_code": 0,
+      "seconds": 5.88
+    },
+    {
+      "script": "scripts/analyze_reported_review.py",
+      "exit_code": 0,
+      "seconds": 4.5
+    },
+    {
+      "script": "scripts/verify_challenge.py",
+      "exit_code": 0,
+      "seconds": 0.83
+    },
+    {
+      "script": "scripts/analyze_challenge.py",
+      "exit_code": 0,
+      "seconds": 2.84
+    }
+  ],
+  "identical_primary_labels": {
+    "baseline": 150,
+    "main": 1350,
+    "robustness": 450
+  },
+  "structurally_identical_analysis_json": [
+    "baseline_analysis.json",
+    "main_analysis.json",
+    "robustness_analysis.json",
+    "main_gee.json",
+    "main_sensitivity_review_excluded.json",
+    "baseline_sensitivity_review_excluded.json"
+  ],
+  "byte_identical_reviewer_outputs": [
+    "summary.json",
+    "joined_labels.csv",
+    "confusion_matrices.csv"
+  ],
+  "english_review_forms_reproduced": true,
+  "challenge_analysis_reproduced": true,
+  "challenge_verification_reproduced": true,
+  "challenge_summary_sha256": "b41e1d64a93bf113ea854171230b11fbdf68ff85890f6f359e7d4b2b8220bbac",
+  "analysis_script_sha256": {
+    "scripts/analyze_experiment.py": "c6f6d063affa7c9806164e395379e1e66c0c9c0e4492db1330e798a8f11e7693",
+    "scripts/analyze_main_experiment.py": "7dbac9d82c1daa64ea72b45eec4cb4e05b139d991dd7bc957ecaa77fcce98fd9",
+    "scripts/summarize_ai_review.py": "06f406f5ff2f7fc1f4c1e825f1a158c8f9ec4e7913512eac94175e028355660c",
+    "scripts/supplemental_analysis.py": "5159c82b13ad5b35e6b634624361deb19968b5d9c9de1923b0732057043f9961",
+    "scripts/validate_evaluator.py": "b2f2b820dae6dc07fc8bb4e59f34a074d1b0db0ba27e9d4fed3eb4066fc30cb9",
+    "scripts/analyze_reported_review.py": "263c59eb8c048acc1e72e54b259f5487f17f5178fb2a6c37bb989048a6692ae9",
+    "scripts/verify_challenge.py": "453a293c5887080ac3745bb61f08267f624190fb18d914e93bbf2b88f8547ab3",
+    "scripts/analyze_challenge.py": "49ff51e466f12ac5c9588482cb14fcf4840075f85edb70028b8c726dea1aeb76"
+  },
+  "reviewer_validation_module_sha256": "ea42a02ed9fd8cd5229c0bb730706aaa67a38ffc5892eb4cbf997e985e083149",
+  "limitations": [
+    "Runtime verification performed on Windows; other platforms are covered by path-parsing tests.",
+    "Only stored responses are reproduced; future model generations are not claimed deterministic."
+  ]
+}

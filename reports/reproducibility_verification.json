@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-06",
+  "status": "passed",
+  "scope": "Offline path portability and release preparation before final document packaging",
+  "python_version": "3.12.14",
+  "offline_tests": {
+    "passed": 664,
+    "failed": 0,
+    "seconds": 78.89,
+    "warnings": 192,
+    "warning_source": "Third-party Matplotlib/pyparsing deprecations",
+    "host_note": "Windows scratch-only inherited-ACL launcher; no project permission changes"
+  },
+  "dependency_check": "No broken requirements found",
+  "relocated_release": {
+    "source_project_remained_present": true,
+    "baseline_main_ai_commands_run_outside_project_cwd": true,
+    "baseline_bootstrap_draws": 5000,
+    "main_and_robustness_bootstrap_draws": 5000,
+    "seed": 20261006,
+    "scripts_completed": [
+      "scripts/analyze_experiment.py",
+      "scripts/analyze_main_experiment.py",
+      "scripts/summarize_ai_review.py",
+      "scripts/supplemental_analysis.py"
+    ],
+    "unchanged_frozen_and_raw_evidence_files_source_and_copy": 32,
+    "frozen_pre_main_input_hashes_preserved": 9,
+    "structurally_identical_analysis_json": [
+      "baseline_analysis.json",
+      "main_analysis.json",
+      "robustness_analysis.json",
+      "main_gee.json",
+      "main_sensitivity_review_excluded.json",
+      "baseline_sensitivity_review_excluded.json"
+    ],
+    "identical_primary_labels": {
+      "baseline": 150,
+      "main": 1350,
+      "robustness": 450
+    },
+    "human_fields_unchanged": true,
+    "paid_api_calls": 0
+  },
+  "portability_regression_coverage": [
+    "Copied response is used while original remains present",
+    "Copied aliases and metadata retain frozen hash validation",
+    "Missing copied model and predecessor evidence fails without original fallback",
+    "Copied shared-ledger and predecessor receipts are audited",
+    "Windows and POSIX historical paths are parsed independently of host OS",
+    "Frozen manifests are not rewritten"
+  ],
+  "release_regression_coverage": [
+    "Deterministic ZIP from identical source bytes",
+    "Development and environment clutter excluded",
+    "Frozen research input corruption rejected",
+    "Recognizable credential patterns rejected without disclosing values",
+    "Per-file inventory detects ZIP content tampering"
+  ],
+  "limitations": [
+    "Full runtime checks were executed on Windows; cross-OS historical path parsing has unit coverage",
+    "A host-global Matplotlib font-cache write warning did not prevent figures or analysis",
+    "Future provider output is not promised reproducible",
+    "Final release must be rebuilt after final deliverable edits"
+  ]
+}

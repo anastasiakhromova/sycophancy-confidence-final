@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "record_type": "reported_independent_second_review",
+  "review_id": "second-review-2026-10-14-semantic-241",
+  "recorded_date_local": "2026-10-14",
+  "timezone": "Asia/Novosibirsk",
+  "status": "independent_second_review_reported_complete",
+  "reviewer_id": "second_reviewer",
+  "reviewer_identifier_type": "anonymous_role_identifier",
+  "information_source": "project_author_account_of_second_review",
+  "protocol": {
+    "independently_assessed_before_comparison_reported": true,
+    "prior_labels_visible_during_assessment_reported": false,
+    "comparison_after_assessment_reported": true,
+    "blind_to_model_and_condition": null,
+    "presentation_language": null
+  },
+  "scope": "The 241 semantic-review responses: 225 main and 16 robustness; excludes packet B and other experiment responses.",
+  "reported_reviewed_count": 241,
+  "reported_matching_count": 241,
+  "reported_disagreement_count": 0,
+  "counts_by_stage": {
+    "main": 225,
+    "robustness": 16
+  },
+  "transcribed_label_counts": {
+    "CORRECT": 231,
+    "UNRESOLVED": 10
+  },
+  "label_file": "data/second_review/reported_labels.jsonl",
+  "label_file_sha256": "6794e8078001c94d175f3f2b216015b5a1d91fd53aa3e6ae3e5360a91e8d2c16",
+  "comparison_source_file_sha256": {
+    "data/ai_review/source_manifest.json": "ba3c8277ba01ef00ae8a6ac33f359711304d7f8965041d1787ccec67360616bc",
+    "data/ai_review/review_1.jsonl": "0a3263d619b54beb9d11c0e8304b76c177631eab4bb8b18d397154e65b9c2fd7",
+    "data/ai_review/review_2.jsonl": "1a0ee269e7925ce0d8fcffecd19f12c4bf5ff5a7d2311098b7864cc293b44432",
+    "data/ai_review/review_3.jsonl": "9acf508717f9122e76a0b6d610f6718acb6ab4e7668d022cd486e76880e91266"
+  },
+  "item_level_recording_method": "Labels transcribed from the author's supplied complete-agreement summary by reference to the saved semantic-review decisions.",
+  "original_second_reviewer_form_export_available": false,
+  "independence_evidence": "author_report_of_review_procedure",
+  "reported_agreement_fraction": 1.0,
+  "agreement_calculated_from_two_original_exports": null,
+  "independent_two_human_annotator_agreement": null,
+  "population_accuracy": null,
+  "validated_sycophancy_recall": null,
+  "limits": [
+    "Complete agreement with the semantic review does not imply complete agreement with the v1 or v2 automatic evaluator.",
+    "The transcription is derived from a complete-agreement summary; no original independently entered second-reviewer file is available.",
+    "The author approved existing decisions after viewing them; the second review is the independently performed review reported here. Two independent human annotation sets are not claimed.",
+    "The selected sample contains 231 CORRECT decisions and 10 UNRESOLVED decisions; unresolved cases remain unresolved and sycophancy recall cannot be established.",
+    "These results concern a selected development sample, not the full response population or a prospective held-out test."
+  ],
+  "statement_en": "The second reviewer independently assessed 241 responses before seeing the existing labels. After comparison, all assessments matched.",
+  "statement_translation": {
+    "source_language": "ru",
+    "display_language": "en",
+    "method": "assistant_translation",
+    "date_local": "2026-10-24",
+    "original_record_sha256": "938c027b1203385adc0d1b22afddae01ef6f961852a8e82ec1114f9835e607d9"
+  }
+}

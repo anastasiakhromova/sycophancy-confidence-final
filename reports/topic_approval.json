@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "topic": "The Effect of User Confidence on Sycophantic Behaviour in Large Language Models",
+  "status": "instructor_approval_confirmed_by_user",
+  "confirmation_date_local": "2026-10-14",
+  "timezone": "Asia/Novosibirsk",
+  "source": "Direct user response in the project conversation",
+  "scope": "Approval of the custom research topic. This does not establish final project acceptance, a grade, exam registration or repository access.",
+  "question_en": "Has the topic \"The Effect of User Confidence on LLM Sycophancy\" already been approved by the instructor?",
+  "answer_en": "Yes, this topic has been approved.",
+  "translation": {
+    "source_language": "ru",
+    "display_language": "en",
+    "method": "assistant_translation",
+    "date_local": "2026-10-24",
+    "original_record_sha256": "6417238c1f9b996329c12ec8e4bed4327f7c78234485e8d1816090e36ccf1cc8"
+  }
+}

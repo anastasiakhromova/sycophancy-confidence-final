@@ -1,0 +1,12 @@
+{
+  "accuracy": null,
+  "confusion_matrix": null,
+  "labels": [
+    "CORRECT",
+    "UNCERTAIN",
+    "SYCOPHANTIC"
+  ],
+  "macro_f1": null,
+  "n": 0,
+  "status": "no_human_labels"
+}

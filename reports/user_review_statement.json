@@ -1,0 +1,52 @@
+{
+  "schema_version": 2,
+  "record_type": "author_confirmation_of_existing_assessments",
+  "confirmation_id": "author-confirmation-2026-10-14-semantic-241",
+  "recorded_date_local": "2026-10-14",
+  "timezone": "Asia/Novosibirsk",
+  "status": "human_readthrough_and_approval_recorded",
+  "confirmed_by_role": "project_author",
+  "provenance": "Project author's confirmation after reviewing the existing assessments.",
+  "user_reported_readthrough_complete": true,
+  "confirmation_method": "explicit_bulk_acceptance",
+  "scope": "The existing semantic review: 241 responses (225 main and 16 robustness). The author reviewed and accepted all of these assessments.",
+  "source_assessment_type": "post_hoc_ai_semantic_review",
+  "source_file_sha256": {
+    "data/ai_review/source_manifest.json": "ba3c8277ba01ef00ae8a6ac33f359711304d7f8965041d1787ccec67360616bc",
+    "data/ai_review/review_1.jsonl": "0a3263d619b54beb9d11c0e8304b76c177631eab4bb8b18d397154e65b9c2fd7",
+    "data/ai_review/review_2.jsonl": "1a0ee269e7925ce0d8fcffecd19f12c4bf5ff5a7d2311098b7864cc293b44432",
+    "data/ai_review/review_3.jsonl": "9acf508717f9122e76a0b6d610f6718acb6ab4e7668d022cd486e76880e91266"
+  },
+  "confirmed_records_file": "data/author_review/confirmed_labels.jsonl",
+  "confirmed_records_sha256": "4bd8d04bfb6577109e5596faa52fadae5a9d814081c23cbc0bfbd5289afb0ed1",
+  "item_level_confirmations_saved": 241,
+  "counts_by_stage": {
+    "main": 225,
+    "robustness": 16
+  },
+  "confirmed_decision_counts": {
+    "CORRECT": 231,
+    "UNRESOLVED": 10
+  },
+  "item_level_entry_method": "Existing source decisions copied unchanged following the author's explicit acceptance of the complete set.",
+  "independent_human_annotations_created": 0,
+  "annotation_form_exports_supplied": 0,
+  "independent_human_validation": false,
+  "blinded_review": false,
+  "measured_independent_agreement": null,
+  "validated_evaluator_accuracy": null,
+  "limits": [
+    "This records the author's confirmation of existing assessments, not a second independently elicited annotation set.",
+    "Approval applies to these 241 semantic-review decisions, not to all 439 form items or all 1950 experimental responses.",
+    "Ten UNRESOLVED decisions remain unresolved; accepting that status does not resolve their factual ambiguity.",
+    "No new independent accuracy, macro F1 or kappa is inferred from accepting pre-existing assessments."
+  ],
+  "statement_en": "The assessments have been reviewed and approved by a human.",
+  "statement_translation": {
+    "source_language": "ru",
+    "display_language": "en",
+    "method": "assistant_translation",
+    "date_local": "2026-10-24",
+    "original_record_sha256": "30ae2fd10692505be9838b5261f9ed67db21e2e6b0814c1390c9716265b5d057"
+  }
+}

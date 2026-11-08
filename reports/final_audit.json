@@ -1,0 +1,40 @@
+{
+  "checked_at_utc": "2026-10-06T01:52:01.920Z",
+  "status": "passed",
+  "stages": {
+    "baseline": {
+      "responses": 150,
+      "physical_attempts": 150,
+      "cost_usd": 0.0029286,
+      "input_tokens": 5916,
+      "output_tokens": 4674,
+      "reasoning_tokens": 166
+    },
+    "main": {
+      "responses": 1350,
+      "physical_attempts": 1350,
+      "cost_usd": 1.3526112,
+      "input_tokens": 54846,
+      "output_tokens": 54171,
+      "reasoning_tokens": 1208
+    },
+    "robustness": {
+      "responses": 450,
+      "physical_attempts": 450,
+      "cost_usd": 0.0097361,
+      "input_tokens": 18441,
+      "output_tokens": 15784,
+      "reasoning_tokens": 958
+    }
+  },
+  "total_responses": 1950,
+  "total_physical_attempts": 1950,
+  "total_usage_priced_cost_usd": 1.3652759,
+  "budget_limit_usd": 8,
+  "unsettled_reservations": 0,
+  "frozen_files_checked": 9,
+  "figures_png": 7,
+  "figures_pdf": 7,
+  "human_labels": 0,
+  "cost_note": "Observed API tokens priced using frozen Standard tariffs; not a provider invoice."
+}
