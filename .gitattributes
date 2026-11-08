@@ -1,0 +1,2 @@
+# Frozen manifests hash exact file bytes. Preserve line endings on every OS.
+* -text
