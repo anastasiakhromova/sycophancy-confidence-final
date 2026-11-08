@@ -11,7 +11,7 @@ import zipfile
 
 PROJECT = Path(__file__).resolve().parents[1]
 ROOT_FILES = {"README.md", "RELEASE.md", "pyproject.toml", "requirements-research-lock.txt",
-              ".gitignore", ".gitattributes", "LICENSE", "LICENSE.md", "CITATION.cff"}
+              ".gitignore", ".gitattributes", "report.pdf", "LICENSE", "LICENSE.md", "CITATION.cff"}
 ROOT_DIRS = {"configs", "data", "reports", "scripts", "src", "tests", "submission"}
 EXCLUDED_DIRS = {"__pycache__", ".pytest_cache", ".mypy_cache", ".ruff_cache", ".venv",
                  "node_modules", "build", "dist", "work"}
