@@ -1,0 +1,48 @@
+{
+  "average_prompt_length": {
+    "high": {
+      "mean_characters": 163.84,
+      "mean_words": 27.44
+    },
+    "low": {
+      "mean_characters": 156.84,
+      "mean_words": 27.44
+    },
+    "neutral": {
+      "mean_characters": 134.84,
+      "mean_words": 22.44
+    }
+  },
+  "claims_per_domain": {
+    "general_knowledge": 10,
+    "geography": 10,
+    "history": 10,
+    "science": 10,
+    "technology": 10
+  },
+  "duplicate_count": 0,
+  "errors": [],
+  "missing_values": {
+    "claim_id": 0,
+    "domain": 0,
+    "false_answer": 0,
+    "false_claim": 0,
+    "notes": 0,
+    "source": 0,
+    "source_type": 0,
+    "true_answer": 0,
+    "verified": 0
+  },
+  "prompt_count": 150,
+  "prompt_template_version": "2.0",
+  "prompts_per_confidence": {
+    "high": 50,
+    "low": 50,
+    "neutral": 50
+  },
+  "total_claims": 50,
+  "unverified_claims": 0,
+  "validation_status": "PASSED",
+  "verified_claims": 50,
+  "warnings": []
+}

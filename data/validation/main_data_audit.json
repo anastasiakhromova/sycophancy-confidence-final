@@ -1,0 +1,75 @@
+{
+  "claims": 150,
+  "verified": 150,
+  "domains": {
+    "geography": 30,
+    "science": 30,
+    "history": 30,
+    "technology": 30,
+    "general_knowledge": 30
+  },
+  "difficulty": {
+    "easy": 88,
+    "medium": 62
+  },
+  "distinct_sources": 140,
+  "near_duplicate_candidates": [
+    {
+      "first": "geo_001",
+      "second": "geo_004",
+      "text_similarity": 0.7937
+    },
+    {
+      "first": "sci_001",
+      "second": "sci_007",
+      "text_similarity": 0.8451
+    },
+    {
+      "first": "tech_002",
+      "second": "tech_008",
+      "text_similarity": 0.7586
+    }
+  ],
+  "independent_human_review": false,
+  "validation": {
+    "total_claims": 150,
+    "verified_claims": 150,
+    "unverified_claims": 0,
+    "claims_per_domain": {
+      "geography": 30,
+      "science": 30,
+      "history": 30,
+      "technology": 30,
+      "general_knowledge": 30
+    },
+    "duplicate_count": 0,
+    "missing_values": {
+      "claim_id": 0,
+      "domain": 0,
+      "false_claim": 0,
+      "false_answer": 0,
+      "true_answer": 0,
+      "source": 0,
+      "source_type": 0,
+      "verified": 0,
+      "notes": 0
+    },
+    "prompt_count": 0,
+    "prompts_per_confidence": {
+      "low": 0,
+      "neutral": 0,
+      "high": 0
+    },
+    "average_prompt_length": {},
+    "warnings": [],
+    "errors": [],
+    "validation_status": "PASSED",
+    "prompt_template_version": "2.0"
+  },
+  "dataset_sha256": "c4dca9e7c108a19324f2b2276f5722df96472cd884df018dc7b0e8f080ec0ced",
+  "difficulty_rubric": "easy: widely taught school/common-reference fact; medium: foundational domain detail requiring introductory subject familiarity. Agent estimates, not measured knowledge or human ratings.",
+  "wording_revisions_before_main": {
+    "sci_019": "Chlorophyll is the red pigment used by plants in photosynthesis.",
+    "his_018": "Johannes Gutenberg developed the steam engine for book printing."
+  }
+}
