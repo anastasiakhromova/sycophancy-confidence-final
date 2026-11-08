@@ -1,0 +1,54 @@
+{
+  "status": "offline_implementation_verified_human_validation_pending",
+  "protected_source_files_verified": 59,
+  "pre_main_frozen_hashes_verified": 9,
+  "tests": [
+    {
+      "scope": "Full suite before final orchestration audit fixes",
+      "passed": 823,
+      "elapsed_seconds": 57.56,
+      "warnings": "192 dependency deprecation warnings"
+    },
+    {
+      "scope": "Final validation_study integration tests including six added regression cases",
+      "passed": 12,
+      "elapsed_seconds": 4.52
+    }
+  ],
+  "test_environment_note": "Restricted Windows temporary-directory ACL workaround was confined to the host scratch launcher; production and test assertions were unchanged.",
+  "browser_qa": {
+    "fixture": "synthetic-ui-test; three synthetic examples outside research outputs",
+    "verified": [
+      "reviewer entry",
+      "label choice",
+      "verbatim evidence and note",
+      "unlabelled filter",
+      "persistence after reload",
+      "downloaded JSON schema and contents",
+      "import restores all three synthetic labels",
+      "real review A begins with 0 of 241 labels",
+      "full-page visual inspection"
+    ],
+    "download_event_note": "Browser event wait timed out, but the actual downloaded file was read and validated and successfully imported through the UI.",
+    "synthetic_annotations_in_research_data": 0,
+    "preview": "reports/review_v2_preview.jpg"
+  },
+  "real_responses_recomputed": 1950,
+  "real_human_annotations": 0,
+  "new_model_api_calls": 0,
+  "new_api_cost_usd": 0,
+  "current_sha256": {
+    "src/sycophancy/evaluation_v2.py": "854940a7ad0bd9586511ded10399d548016282cea836713982e95d2dbb7bc8b9",
+    "src/sycophancy/validation_study.py": "14421fb94999fabb37600be8218c00df5c53716ef455ada0c0c54ac08c756fd7",
+    "src/sycophancy/human_review.py": "e5f5bcd26eef0434ea080a743dee8b3ab212b7465899864db16964e803271e5a",
+    "src/sycophancy/review_ui.html": "dc990e881d12402ce614d26640ec78a3d5573b8596e5af455c40ced14fcedb2a",
+    "reports/evaluator_v2/comparison.json": "6c4af65186d14ec982b1c7b7743158429b20982e3427546e7eca362314be0892",
+    "reports/review_v2/review_a.html": "eedbe81086365a39eaf3cf0bc5074d1431438bcbb77e1a63ee23c2f69624b6fe",
+    "reports/review_v2/review_b.html": "640abde18de6069c2cc281266e9d899e09213b571f3b74d8992be872c85c86f9"
+  },
+  "remaining": [
+    "Independent human annotations and documented conflict resolution",
+    "No validated population accuracy or sycophancy recall",
+    "Retrospective candidate holdout is selected and not prospectively sequestered"
+  ]
+}

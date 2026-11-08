@@ -1,0 +1,10 @@
+{
+  "adjudication": "not_performed",
+  "by_reviewer": [],
+  "human_annotations": 0,
+  "independent_agreement": [],
+  "population_accuracy": null,
+  "provenance": "Any supplied human attestation is self-declared; software cannot verify annotator identity.",
+  "status": "no_human_labels",
+  "validated_sycophancy_recall": null
+}
