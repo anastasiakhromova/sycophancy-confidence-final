@@ -1,0 +1,11 @@
+{
+  "publisher": "Springer Nature",
+  "template_release": "December 2024",
+  "course_link": "https://preview.springer.com/gp/livingreviews/latex-templates",
+  "resolved_page": "https://www.springernature.com/gp/authors/campaigns/latex-author-support",
+  "download": "https://cms-resources.apps.public.k8s.springernature.io/springer-cms/rest/v1/content/18782940/data/v12",
+  "retrieved_on": "2026-10-06",
+  "class_sha256": "36d0c3273a59d48dc6a9c7b080dfa1ec50dc10229d8751568d1f2e490ffa5ecc",
+  "license": "LaTeX Project Public License 1.3c or later; see original header in sn-jnl.cls",
+  "modification": "Class preserved as downloaded; embedded source normalizes line endings."
+}
