@@ -7,19 +7,18 @@
 - `manuscript.json` - editable article content.
 - `build_paper.py` - source generation, real LaTeX compilation and four-to-eight-page check.
 - `paper_build.json` - compiler version, page count and source/output hashes.
-- `research_presentation.pptx` - English research presentation, 13 main slides and one follow-up appendix.
-- `research_speaking_script_en.md` - matching ten-minute speaking plan.
-- `presentation.pptx` - alternative presentation, ten main slides and four backups.
-- `speaking_script_en.md` - script for the alternative presentation.
 - `defense_prep_en.md` - English preparation guide and 22 likely questions.
 - `topic_proposal.txt` - approved custom-topic description.
 - `template/` - official template source and provenance.
-- `research_slides/`, `slides/` - editable presentation build sources.
-- `figma/` - earlier partial cloud-design work; not a completed Figma deck.
+
+The previous presentation files and build sources have been removed. A replacement
+presentation is in preparation. The defense guide remains useful for its research
+explanations and questions; its old slide timetable is historical. Earlier build
+references in dated verification reports describe the previous release.
 
 Author name and any required student number were not supplied. Set `author` in
-`manuscript.json`, rebuild and add the same identity to the presentation before
-submission. The article currently leaves the name blank.
+`manuscript.json` and rebuild before submission. The article currently leaves the
+name blank.
 
 ## Results and review
 
@@ -115,10 +114,10 @@ count checks pass. It records hashes in `paper_build.json`.
 | Critical discussion and future work | Paper section 4 |
 | Four-to-eight-page article in the linked template | Official-template LaTeX compilation verified; eight pages |
 | Modular code and reproducibility | `../src/sycophancy/`, tests and `../RELEASE.md` |
-| GitHub access | [Project repository](https://github.com/Orehovich3rec/sycophancy-confidence); instructor access must be granted if private |
-| Ten-minute English presentation | Main PowerPoint and matching script; timing needs live rehearsal |
+| GitHub access | [Project repository](https://github.com/anastasiakhromova/sycophancy-confidence-final) |
+| Ten-minute English presentation | Replacement presentation in preparation; not included in this package |
 | Reviewer provenance | Methods distinguish AI judgments, author approval and second review |
-| Student understanding | Defense guide and English script |
+| Student understanding | Defense guide; presentation rehearsal pending |
 | Custom-topic approval | Confirmed on 14 October 2026; `../reports/topic_approval.json` |
 | Registration and defense appointment | Student-managed through the course's Ariel procedure |
 
