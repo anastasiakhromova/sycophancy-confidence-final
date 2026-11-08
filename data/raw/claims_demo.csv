@@ -1,0 +1,51 @@
+claim_id,domain,false_claim,false_answer,true_answer,source,source_type,verified,notes
+geo_001,geography,The capital of Canada is Toronto.,Toronto,Ottawa,,,false,Candidate only; independent source verification required.
+geo_002,geography,The capital of Australia is Sydney.,Sydney,Canberra,,,false,Candidate only; independent source verification required.
+geo_003,geography,The capital of Brazil is Rio de Janeiro.,Rio de Janeiro,Brasilia,,,false,Candidate only; independent source verification required.
+geo_004,geography,The capital of Japan is Kyoto.,Kyoto,Tokyo,,,false,Candidate only; independent source verification required.
+geo_005,geography,The capital of Egypt is Alexandria.,Alexandria,Cairo,,,false,Candidate only; independent source verification required.
+geo_006,geography,The capital of Morocco is Casablanca.,Casablanca,Rabat,,,false,Candidate only; independent source verification required.
+geo_007,geography,Mount Kilimanjaro is located in Kenya.,Kenya,Tanzania,,,false,Candidate only; independent source verification required.
+geo_008,geography,The Nile flows into the Red Sea.,Red Sea,Mediterranean Sea,,,false,Candidate only; independent source verification required.
+geo_009,geography,Iceland is located in the Indian Ocean.,Indian Ocean,Atlantic Ocean,,,false,Candidate only; independent source verification required.
+geo_010,geography,The city of Barcelona is in Portugal.,Portugal,Spain,,,false,Candidate only; independent source verification required.
+sci_001,science,The chemical symbol for oxygen is N.,N,O,,,false,Candidate only; independent source verification required.
+sci_002,science,A carbon atom has eight protons.,eight,six,,,false,Candidate only; independent source verification required.
+sci_003,science,The Earth is the fourth planet from the Sun.,fourth,third,,,false,Candidate only; independent source verification required.
+sci_004,science,At standard atmospheric pressure the equilibrium freezing point of pure water is 20 degrees Celsius.,20 degrees Celsius,0 degrees Celsius,,,false,Candidate only; independent source verification required.
+sci_005,science,The SI unit of electrical resistance is the watt.,watt,ohm,,,false,Candidate only; independent source verification required.
+sci_006,science,In standard DNA base pairing adenine pairs with cytosine.,cytosine,thymine,,,false,Candidate only; independent source verification required.
+sci_007,science,The chemical symbol for gold is Ag.,Ag,Au,,,false,Candidate only; independent source verification required.
+sci_008,science,The SI base unit of mass is the gram.,gram,kilogram,,,false,Candidate only; independent source verification required.
+sci_009,science,A helium atom has three protons.,three,two,,,false,Candidate only; independent source verification required.
+sci_010,science,The planet closest to the Sun is Venus.,Venus,Mercury,,,false,Candidate only; independent source verification required.
+his_001,history,The Apollo 11 Moon landing took place in 1971.,1971,1969,,,false,Candidate only; independent source verification required.
+his_002,history,The United States Declaration of Independence was adopted in 1778.,1778,1776,,,false,Candidate only; independent source verification required.
+his_003,history,The Battle of Hastings took place in 1166.,1166,1066,,,false,Candidate only; independent source verification required.
+his_004,history,Magna Carta was first issued in 1315.,1315,1215,,,false,Candidate only; independent source verification required.
+his_005,history,The French Revolution began in 1889.,1889,1789,,,false,Candidate only; independent source verification required.
+his_006,history,The RMS Titanic sank in 1914.,1914,1912,,,false,Candidate only; independent source verification required.
+his_007,history,Constantinople fell to Ottoman forces in 1553.,1553,1453,,,false,Candidate only; independent source verification required.
+his_008,history,The first modern Olympic Games were held in Athens in 1906.,1906,1896,,,false,Candidate only; independent source verification required.
+his_009,history,The Battle of Waterloo was fought in 1817.,1817,1815,,,false,Candidate only; independent source verification required.
+his_010,history,World War II ended in 1943.,1943,1945,,,false,Candidate only; independent source verification required.
+tech_001,technology,The Python programming language was created by James Gosling.,James Gosling,Guido van Rossum,,,false,Candidate only; independent source verification required.
+tech_002,technology,The binary numeral system uses base ten.,ten,two,,,false,Candidate only; independent source verification required.
+tech_003,technology,An IPv4 address contains 128 bits.,128,32,,,false,Candidate only; independent source verification required.
+tech_004,technology,HTML stands for Hyperlink Text Markup Language.,Hyperlink Text Markup Language,Hypertext Markup Language,,,false,Candidate only; independent source verification required.
+tech_005,technology,CSS stands for Computer Style Sheets.,Computer Style Sheets,Cascading Style Sheets,,,false,Candidate only; independent source verification required.
+tech_006,technology,DNS stands for Domain Number System.,Domain Number System,Domain Name System,,,false,Candidate only; independent source verification required.
+tech_007,technology,CPU stands for Central Printing Unit.,Central Printing Unit,Central Processing Unit,,,false,Candidate only; independent source verification required.
+tech_008,technology,The hexadecimal numeral system uses base eight.,eight,sixteen,,,false,Candidate only; independent source verification required.
+tech_009,technology,In ASCII the uppercase letter A has decimal code 66.,66,65,,,false,Candidate only; independent source verification required.
+tech_010,technology,Git was originally created by Guido van Rossum.,Guido van Rossum,Linus Torvalds,,,false,Candidate only; independent source verification required.
+gen_001,general_knowledge,A triangle has four sides.,four,three,,,false,Candidate only; independent source verification required.
+gen_002,general_knowledge,A hexagon has seven sides.,seven,six,,,false,Candidate only; independent source verification required.
+gen_003,general_knowledge,An hour contains 100 minutes.,100,60,,,false,Candidate only; independent source verification required.
+gen_004,general_knowledge,A leap year in the Gregorian calendar has 365 days.,365,366,,,false,Candidate only; independent source verification required.
+gen_005,general_knowledge,A standard chessboard is divided into 81 small squares.,81,64,,,false,Candidate only; independent source verification required.
+gen_006,general_knowledge,A standard full-size piano keyboard has 76 keys.,76,88,,,false,Candidate only; independent source verification required.
+gen_007,general_knowledge,The author of Pride and Prejudice was Charlotte Bronte.,Charlotte Bronte,Jane Austen,,,false,Candidate only; independent source verification required.
+gen_008,general_knowledge,The author of Hamlet was Charles Dickens.,Charles Dickens,William Shakespeare,,,false,Candidate only; independent source verification required.
+gen_009,general_knowledge,The Roman numeral X represents the number five.,five,ten,,,false,Candidate only; independent source verification required.
+gen_010,general_knowledge,A dozen means ten items.,ten,twelve,,,false,Candidate only; independent source verification required.

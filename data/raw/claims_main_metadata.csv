@@ -1,0 +1,151 @@
+claim_id,difficulty,subtopic,difficulty_reason
+geo_001,easy,national capital,A widely taught school-level or common reference fact.
+geo_002,easy,national capital,A widely taught school-level or common reference fact.
+geo_003,easy,national capital,A widely taught school-level or common reference fact.
+geo_004,easy,national capital,A widely taught school-level or common reference fact.
+geo_005,easy,national capital,A widely taught school-level or common reference fact.
+geo_006,easy,national capital,A widely taught school-level or common reference fact.
+geo_007,easy,mountain location,A widely taught school-level or common reference fact.
+geo_008,easy,river drainage,A widely taught school-level or common reference fact.
+geo_009,easy,island location,A widely taught school-level or common reference fact.
+geo_010,easy,city location,A widely taught school-level or common reference fact.
+sci_001,easy,element symbols,A widely taught school-level or common reference fact.
+sci_002,easy,atomic structure,A widely taught school-level or common reference fact.
+sci_003,easy,planetary order,A widely taught school-level or common reference fact.
+sci_004,easy,phase transitions,A widely taught school-level or common reference fact.
+sci_005,medium,electrical units,A foundational domain detail generally requiring introductory subject familiarity.
+sci_006,medium,molecular biology,A foundational domain detail generally requiring introductory subject familiarity.
+sci_007,easy,element symbols,A widely taught school-level or common reference fact.
+sci_008,easy,SI base units,A widely taught school-level or common reference fact.
+sci_009,easy,atomic structure,A widely taught school-level or common reference fact.
+sci_010,easy,planetary order,A widely taught school-level or common reference fact.
+his_001,easy,space exploration,A widely taught school-level or common reference fact.
+his_002,easy,US independence,A widely taught school-level or common reference fact.
+his_003,medium,medieval England,A foundational domain detail generally requiring introductory subject familiarity.
+his_004,medium,constitutional history,A foundational domain detail generally requiring introductory subject familiarity.
+his_005,easy,French Revolution,A widely taught school-level or common reference fact.
+his_006,easy,maritime history,A widely taught school-level or common reference fact.
+his_007,medium,Ottoman history,A foundational domain detail generally requiring introductory subject familiarity.
+his_008,medium,modern Olympics,A foundational domain detail generally requiring introductory subject familiarity.
+his_009,medium,Napoleonic wars,A foundational domain detail generally requiring introductory subject familiarity.
+his_010,easy,Second World War,A widely taught school-level or common reference fact.
+tech_001,medium,programming language origins,A foundational domain detail generally requiring introductory subject familiarity.
+tech_002,easy,number systems,A widely taught school-level or common reference fact.
+tech_003,medium,internet addressing,A foundational domain detail generally requiring introductory subject familiarity.
+tech_004,medium,web standards,A foundational domain detail generally requiring introductory subject familiarity.
+tech_005,medium,web styling,A foundational domain detail generally requiring introductory subject familiarity.
+tech_006,medium,name resolution,A foundational domain detail generally requiring introductory subject familiarity.
+tech_007,easy,computer architecture,A widely taught school-level or common reference fact.
+tech_008,medium,number systems,A foundational domain detail generally requiring introductory subject familiarity.
+tech_009,medium,character encoding,A foundational domain detail generally requiring introductory subject familiarity.
+tech_010,medium,version control origins,A foundational domain detail generally requiring introductory subject familiarity.
+gen_001,easy,plane geometry,A widely taught school-level or common reference fact.
+gen_002,easy,plane geometry,A widely taught school-level or common reference fact.
+gen_003,easy,time units,A widely taught school-level or common reference fact.
+gen_004,easy,calendars,A widely taught school-level or common reference fact.
+gen_005,easy,board games,A widely taught school-level or common reference fact.
+gen_006,easy,musical instruments,A widely taught school-level or common reference fact.
+gen_007,easy,English novels,A widely taught school-level or common reference fact.
+gen_008,easy,drama,A widely taught school-level or common reference fact.
+gen_009,easy,numeral notation,A widely taught school-level or common reference fact.
+gen_010,easy,counting units,A widely taught school-level or common reference fact.
+geo_011,easy,ocean_basins,A widely taught world-geography superlative.
+geo_012,easy,ocean_basins,A standard school-level ranking of the named oceans.
+geo_013,easy,cartography,An elementary coordinate-system definition.
+geo_014,medium,time_zones,Requires applying the date-line direction convention rather than recalling a place name.
+geo_015,easy,cartography,An elementary definition in map-reading curricula.
+geo_016,medium,ocean_floor,Locating a specific submarine landform is foundational ocean geography beyond basic continent recall.
+geo_017,medium,lakes,Distinguishes lake depth from other familiar lake superlatives.
+geo_018,easy,river_basins,A familiar continent-level location taught in world geography.
+geo_019,easy,mountain_ranges,A major mountain range and its continental coast are common atlas knowledge.
+geo_020,easy,deserts,A widely taught location of a major desert.
+geo_021,easy,coastal_features,A familiar country-level location of a major natural landmark.
+geo_022,medium,island_geography,Requires distinguishing the political affiliation of an offshore archipelago.
+geo_023,medium,glacial_landforms,Tests a geomorphological formation process rather than simple location recall.
+geo_024,medium,fluvial_landforms,Requires distinguishing depositional and erosional landform processes.
+geo_025,medium,lakes,Requires recognizing the lake's hydrological classification despite its name.
+geo_026,easy,mountain_ranges,"A widely taught elevation superlative, explicitly scoped to sea-level elevation."
+geo_027,easy,polar_regions,An elementary continent-and-pole relationship.
+geo_028,medium,waterways,Requires recalling the specific seas connected by a major navigation canal.
+geo_029,easy,waterways,The ocean connection of the Panama Canal is common world-geography knowledge.
+geo_030,medium,transboundary_waters,Requires distinguishing the three lake-sharing states from the larger drainage basin.
+sci_011,medium,cell_biology,Requires knowing the function of a specific cellular structure.
+sci_012,medium,cellular_energy,Requires distinguishing the cell's immediate energy carrier from a storage carbohydrate.
+sci_013,medium,molecular_biology,Requires a foundational molecular distinction between RNA and DNA.
+sci_014,easy,genetics,A standard school-biology count; typical diploid cells excludes gametes and aneuploid exceptions.
+sci_015,easy,endocrinology,A commonly taught organ-hormone relationship.
+sci_016,medium,renal_physiology,Requires a basic anatomical term beyond general organ identification.
+sci_017,easy,digestive_physiology,A standard school-level digestive-system function.
+sci_018,easy,zoology,Elementary animal classification; scoped to the normal adult body plan.
+sci_019,easy,botany,A widely taught pigment-color association in elementary photosynthesis.
+sci_020,medium,mycology,Requires a foundational compositional distinction between fungal and plant cells.
+gen_011,easy,visual_arts,The painter of a widely known artwork is a common reference fact.
+gen_012,easy,visual_arts,The attribution of this widely known painting is a common reference fact.
+gen_013,medium,classical_music,Recognizing the composer of a standard ballet score requires foundational classical-music knowledge.
+gen_014,easy,musical_instruments,The string count of the standard violin is a school-level instrument fact.
+gen_015,easy,musical_instruments,The standard orchestral instrument families are taught in introductory music.
+gen_016,medium,literature,Attribution of a canonical translated novel requires foundational world-literature knowledge.
+gen_017,easy,literature,This widely taught modern novel has a common-reference author attribution.
+gen_018,easy,poetry,The Japanese origin of haiku is a common introductory-literature fact.
+gen_019,medium,tactile_writing,The six-position structure is foundational knowledge of braille beyond general recognition of the system.
+gen_020,medium,sports_rules,Deuce is a foundational tennis-scoring term whose exact score requires knowledge of the sport's rules.
+gen_021,easy,sports_rules,The standard indoor-volleyball team size is a common school-sport fact.
+gen_022,medium,athletics,The exact standardized distance requires foundational athletics knowledge beyond recognizing the marathon as a long race.
+gen_023,easy,sports_equipment,Recognizing a shuttlecock as badminton equipment is a common school-sport fact.
+gen_024,medium,board_games,The standard board dimensions are foundational Go knowledge beyond merely recognizing the game.
+gen_025,easy,geometry,The measure of a right angle is an elementary geometry fact.
+gen_026,easy,number_theory,The beginning of the prime-number sequence is elementary mathematics.
+gen_027,easy,board_games,The opposite-face convention is a common reference fact about ordinary dice.
+gen_028,medium,poetry,The formal line count is foundational knowledge of poetic forms beyond recognizing a sonnet.
+gen_029,easy,grammar,Naming nouns is a basic school-grammar skill.
+gen_030,medium,music_notation,Mapping British and American note-value terminology requires foundational music-theory knowledge.
+his_011,medium,ancient_mesopotamia,Requires matching a major ancient civilization to its two defining rivers.
+his_012,easy,ancient_sport,The Greek birthplace of the Olympics is a common school-history fact.
+his_013,medium,ancient_china,Requires distinguishing a philosopher from the ruler who first unified imperial China.
+his_014,easy,ancient_egypt,The funerary purpose of Egyptian pyramids is widely taught.
+his_015,easy,roman_archaeology,Pompeii and Vesuvius form a familiar school-history association.
+his_016,medium,pre_columbian_americas,Requires knowing an Inca political center rather than a modern national capital.
+his_017,easy,medieval_asia,Genghis Khan's association with the Mongols is common general knowledge.
+his_018,easy,printing_history,Gutenberg's role in European printing is a common school-history fact.
+his_019,easy,renaissance,The Renaissance's Italian center is widely taught in introductory history.
+his_020,easy,industrialization,Britain's pioneering industrialization is a common school-history fact.
+his_021,easy,napoleonic_europe,Napoleon's association with France is basic general historical knowledge.
+his_022,medium,international_organizations,Requires distinguishing the League's headquarters from the later UN headquarters.
+his_023,medium,international_diplomacy,The founding conference location is foundational diplomatic history beyond basic organization recall.
+his_024,easy,cold_war_europe,The fall of the Berlin Wall is a widely taught landmark date.
+his_025,medium,cold_war_americas,Requires knowing the geographic focus of the Cold War nuclear confrontation.
+his_026,medium,civil_rights,Requires the city of a central civil-rights event beyond recognition of its participant.
+his_027,easy,south_african_democracy,The transition to Mandela's presidency is a widely taught modern-history milestone.
+his_028,easy,voting_rights,The suffragette movement's central voting demand is common school knowledge.
+his_029,easy,emancipation,Lincoln's association with emancipation is widely taught.
+his_030,medium,indian_independence,Requires knowing the economic target of a foundational independence campaign.
+tech_011,easy,web_status_codes,The 404 not-found message is common everyday web knowledge.
+tech_012,medium,network_ports,Requires distinguishing secure and ordinary HTTP port assignments.
+tech_013,medium,transport_protocols,Connection orientation is foundational networking knowledge beyond ordinary computer use.
+tech_014,medium,email_protocols,Requires distinguishing the roles of email and web protocols.
+tech_015,medium,image_formats,Compression semantics require foundational image-format knowledge beyond filename recognition.
+tech_016,medium,vector_graphics,Requires knowing the markup representation of an established vector graphics format.
+tech_017,easy,database_queries,SELECT is an elementary database command whose purpose is taught in introductory computing.
+tech_018,medium,database_constraints,Requires understanding the uniqueness constraint behind relational primary keys.
+tech_019,medium,programming_data_types,Mutability is a foundational programming concept beyond language-name recognition.
+tech_020,medium,programming_operators,Requires distinguishing floor division from exponentiation in Python syntax.
+tech_021,easy,version_control,Cloning a repository is an elementary version-control operation.
+tech_022,medium,transport_security,Requires identifying the security layer rather than merely recognizing the HTTPS name.
+tech_023,easy,computer_memory,Loss of ordinary working-memory data without power is basic computer-literacy knowledge.
+tech_024,easy,data_storage,The difference between solid-state and rotating-disk storage is basic computer literacy.
+tech_025,medium,public_key_cryptography,Requires the defining distinction between symmetric and asymmetric cryptography.
+tech_026,easy,cryptographic_hashing,This elementary hash-length fact is also indicated by the number in SHA-256's name.
+tech_027,easy,binary_representation,The eight-bit grouping is a basic digital-information fact.
+tech_028,medium,remote_access,Requires a standard secure-remote-access port assignment.
+tech_029,easy,web_markup,Creating a link is a basic introductory HTML operation.
+tech_030,easy,data_interchange,JSON's human-readable text representation is basic introductory web-data knowledge.
+sci_021,medium,electromagnetic_waves,Requires the physical distinction between electromagnetic and mechanical waves.
+sci_022,easy,acoustics,Sound's need for a medium is a standard school-science concept.
+sci_023,easy,chemical_allotropes,Diamond's carbon composition is common school chemistry.
+sci_024,medium,earth_structure,Requires distinguishing physical states of the inner and outer core.
+sci_025,medium,rock_cycle,Requires classifying a rock by its formation process.
+sci_026,easy,earth_sun_geometry,Axial tilt as the cause of seasons is a standard school-science concept.
+sci_027,medium,lunar_phases,Requires distinguishing ordinary phase geometry from lunar eclipses.
+sci_028,medium,planetary_properties,Requires a foundational comparative property of Saturn beyond its name and rings.
+sci_029,easy,stellar_physics,Nuclear fusion as the Sun's energy source is widely taught in school science.
+sci_030,medium,atomic_structure,Requires the precise distinction between isotopes and different elements.
