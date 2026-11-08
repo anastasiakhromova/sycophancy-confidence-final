@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-23T21:08:16.527554+00:00",
+  "status": "passed",
+  "network_calls": 0,
+  "errors": [],
+  "checks": {
+    "target_sources_plan_responses_attempts": true,
+    "wording_sources_plan_ratings": true,
+    "assessment_sources_batches_exact_text_regenerated_labels": true,
+    "run_ledger": true,
+    "wording_ledger": true,
+    "assessment_ledger": true,
+    "combined_cost_and_provider_identity": true,
+    "input_read_and_structure": true,
+    "verifier_source_recorded": true,
+    "stable_snapshot": true
+  },
+  "stages": {
+    "run": {
+      "saved_calls": 390,
+      "reservations": 390,
+      "observed_usage_cost_usd_exact": "0.0144362",
+      "observed_usage_cost_usd": 0.0144362,
+      "tokens": {
+        "input_tokens": 18252,
+        "output_tokens": 25222,
+        "cached_input_tokens": 0,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 9418
+      },
+      "unknown_billing_reservations": 0,
+      "orphan_reservations": 0,
+      "cap_usd": 0.5
+    },
+    "wording": {
+      "saved_calls": 27,
+      "reservations": 27,
+      "observed_usage_cost_usd_exact": "0.016262",
+      "observed_usage_cost_usd": 0.016262,
+      "tokens": {
+        "input_tokens": 3411,
+        "output_tokens": 944,
+        "cached_input_tokens": 0,
+        "cache_write_tokens": 0,
+        "reasoning_tokens": 14
+      },
+      "unknown_billing_reservations": 0,
+      "orphan_reservations": 0,
+      "cap_usd": 0.25
+    },
+    "assessment": {
+      "saved_calls": 98,
+      "reservations": 98,
+      "observed_usage_cost_usd_exact": "0.3769025",
+      "observed_usage_cost_usd": 0.3769025,
+      "tokens": {
+        "input_tokens": 91778,
+        "output_tokens": 19282,
+        "cached_input_tokens": 0,
+        "cache_write_tokens": 1053,
+        "reasoning_tokens": 0
+      },
+      "unknown_billing_reservations": 0,
+      "orphan_reservations": 0,
+      "cap_usd": 1.25
+    }
+  },
+  "limitations": [
+    "Checks the saved files and usage-priced estimates, not the provider invoice.",
+    "Does not establish semantic correctness, human validation, or crash/resume safety.",
+    "Only the target stage saved full provider envelopes; judge stages saved parsed response metadata.",
+    "Reasoning tokens are an output-token subset and are not charged twice."
+  ],
+  "coverage": {
+    "target": {
+      "planned": 390,
+      "saved": 390,
+      "completed": 390,
+      "physical_attempts": 390,
+      "plan_sha256": "ce5232b3bf62d4de063985968b6709eb0beaed92dd0faa32c0b197f9c6776fbd",
+      "saved_by_task": {
+        "knowledge": 30,
+        "false_assertion": 270,
+        "true_control": 90
+      }
+    },
+    "wording": {
+      "planned": 27,
+      "saved": 27,
+      "valid_ratings": 27
+    },
+    "assessment": {
+      "planned_batches": 98,
+      "saved_batches": 98,
+      "regenerated_labels": 390,
+      "unassessed_target_responses": 0,
+      "regenerated_labels_sha256": "7bf4169129373828e7951a30420b9d98d6315c057ce006865225c98344bf3e94"
+    }
+  },
+  "costs": {
+    "original_study_usd_exact": "1.3652759",
+    "challenge_usd_exact": "0.4076007",
+    "combined_usd_exact": "1.7728766",
+    "combined_usd": 1.7728766,
+    "global_cap_usd": 8,
+    "tokens_by_stage_are_inclusive_output": true
+  },
+  "source_sha256": {
+    "data/challenge_v1/claims.jsonl": "b1f99efc8bf97daaad2843cd24d589e71c52fa2f72c1c60a1b6e3c53664a7f96",
+    "data/challenge_v1/cues.json": "cec69b1b06a04b4a4251b8c532526009b3848166d0c0b0e3939222174a63deae",
+    "data/challenge_v1/run/manifest.json": "87bcee7816a3f162c6f97b6ec50c60645e0a80e3100dda25a474dce1f314d207",
+    "data/challenge_v1/run/responses.jsonl": "68cbf784d5c1a4a4a1c48633e8859766623cb88021a4d74c121319dba42d5a64",
+    "configs/challenge.toml": "c87624ddd2220b80bc3c0be3e8531fe95c6e61d9fe9544991b9eebd09ae0f3ba",
+    "data/challenge_v1/protocol.md": "562e181ef725a168f6986e5f9c9b4ab5a31476dd18c16914844f40a3902274e5",
+    "data/runs/budget.json": "35e7230294f074442e3d9edfaf8e2c69cef1cd11a50702f7ce3687ba9eeffe2a",
+    "scripts/run_challenge.py": "fa14e1663d39891480cb27c7d849a54ee4aaed49cadc99fec4133d8969bb2b57",
+    "src/sycophancy/budget.py": "a591daf925493bc053c52d72ec7a972bd4e6646a5471ed2fc1ee850c8b0f6c2c",
+    "src/sycophancy/challenge.py": "9c1cbe9e813e8aa0f59b908afc034bc31e52cf2e2ad345f308bcd2b03d3ccc14",
+    "src/sycophancy/experiment_config.py": "39013fa8763eef86c3a500eea4686dfab9007643fc86514e220ab54f31f930e7",
+    "src/sycophancy/llm.py": "d330b0b851def3c897d78763466eac67c87159687d8060c7cf274ed01a7ecd11",
+    "src/sycophancy/runner.py": "c001cfee7296411e0a6910d3dd491d6b571fa018263bd8a1b88455f0e3c2d65c",
+    "data/challenge_v1/run/attempts.jsonl": "f574e1a8f7813c6cabd2356ed6ca6e2629af58f9e5e0af9b18e23396082fd152",
+    "data/challenge_v1/wording/manifest.json": "37502efd6c64cf19c2b12f273349a9620ee8a01249803eb82ec67e198c68557a",
+    "data/challenge_v1/wording/responses.jsonl": "e926edb91dd2c007129180119f36912c8371f4a3e701731d85de708e61d4cea6",
+    "data/challenge_v1/assessment/manifest.json": "fc16d732a91c62f0b028b025235ec5dca62488a83a924fb982704a0babadae58",
+    "data/challenge_v1/assessment/responses.jsonl": "4d557218eb8c6af983244c2375bf420ab879c591f824d3ea4cbf9eae9bd3b6d9",
+    "scripts/check_confidence_wording.py": "12ca8b042c4c8ffd13b8bbca4264ac1e41abfd24f99d39a5ab054d80fdd80d05",
+    "data/challenge_v1/assessment_rubric.md": "2750516a2217fe8bd0538ae5c18be10c5f6caf5fcf2b89cd9cb48231e4231eb7",
+    "scripts/assess_challenge.py": "973e8da91bdfd069eda399a5e9909c32ebb2de7090808bf581e793d9df037181",
+    "data/challenge_v1/assessment/labels.jsonl": "40a1305dcd9a2ca82595a2f30377e9a875b55dd1545100149384c48581b39e56",
+    "data/challenge_v1/run/budget.json": "7656ecea1382876d54339b5b7b216d3b619111955a161faec2051c00699bea37",
+    "data/challenge_v1/wording/budget.json": "b854e77a7e371ab34f98e345aca856ede1609505f019ecfbfefdfaab7142ee64",
+    "data/challenge_v1/assessment/budget.json": "293b4dbad2cfa59edb6c9ef3363faa13c6c9d601c73bd147d5dbd760e17d64ee",
+    "scripts/verify_challenge.py": "453a293c5887080ac3745bb61f08267f624190fb18d914e93bbf2b88f8547ab3"
+  },
+  "integrity_passed": true,
+  "complete": true
+}
