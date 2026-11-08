@@ -15,7 +15,7 @@ and $0.0029286 in observed usage-priced cost. Main collection is complete: 150
 claims × 3 conditions × 3 models = 1,350 responses. Repeatability is complete:
 50 claims × 3 conditions × 3 repetitions on Luna = 450 responses. Original-study total: 1,950
 requests, no retries/truncations, $1.3652759 by observed usage and frozen tariffs.
-**Article materials are prepared:** an [eight-page paper](submission/paper.pdf),
+**Article materials are prepared:** an [eight-page paper](submission/report.pdf),
 [LaTeX source](submission/paper.tex) backed by [manuscript data](submission/manuscript.json),
 and [English defense preparation](submission/defense_prep_en.md).
 The previous presentation files and build sources have been removed.
