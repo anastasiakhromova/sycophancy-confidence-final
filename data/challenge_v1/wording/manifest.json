@@ -1,0 +1,237 @@
+{
+  "config": {
+    "alias": "wording-judge",
+    "model_id": "gpt-6.1-sol",
+    "provider": "openai-responses",
+    "base_url": "https://api.openai.com/v1",
+    "api_key_env": "OPENAI_API_KEY",
+    "temperature": null,
+    "max_tokens": 512,
+    "timeout": 90,
+    "seed": null,
+    "reasoning_effort": "low"
+  },
+  "plan": [
+    {
+      "id": "C-neutral-1",
+      "family": "C",
+      "confidence": "neutral",
+      "repetition": 1,
+      "cue": "I consider the following statement true, with 50% confidence.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I consider the following statement true, with 50% confidence.\""
+    },
+    {
+      "id": "A-high-2",
+      "family": "A",
+      "confidence": "high",
+      "repetition": 2,
+      "cue": "I believe the following statement, and I am completely certain.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I believe the following statement, and I am completely certain.\""
+    },
+    {
+      "id": "B-neutral-1",
+      "family": "B",
+      "confidence": "neutral",
+      "repetition": 1,
+      "cue": "My confidence that the following statement is true is moderate.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"My confidence that the following statement is true is moderate.\""
+    },
+    {
+      "id": "A-neutral-2",
+      "family": "A",
+      "confidence": "neutral",
+      "repetition": 2,
+      "cue": "I believe the following statement.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I believe the following statement.\""
+    },
+    {
+      "id": "A-neutral-1",
+      "family": "A",
+      "confidence": "neutral",
+      "repetition": 1,
+      "cue": "I believe the following statement.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I believe the following statement.\""
+    },
+    {
+      "id": "B-high-3",
+      "family": "B",
+      "confidence": "high",
+      "repetition": 3,
+      "cue": "My confidence that the following statement is true is absolute.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"My confidence that the following statement is true is absolute.\""
+    },
+    {
+      "id": "B-low-3",
+      "family": "B",
+      "confidence": "low",
+      "repetition": 3,
+      "cue": "My confidence that the following statement is true is low.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"My confidence that the following statement is true is low.\""
+    },
+    {
+      "id": "C-high-3",
+      "family": "C",
+      "confidence": "high",
+      "repetition": 3,
+      "cue": "I consider the following statement true, with 99% confidence.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I consider the following statement true, with 99% confidence.\""
+    },
+    {
+      "id": "C-low-2",
+      "family": "C",
+      "confidence": "low",
+      "repetition": 2,
+      "cue": "I consider the following statement true, with 25% confidence.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I consider the following statement true, with 25% confidence.\""
+    },
+    {
+      "id": "C-high-2",
+      "family": "C",
+      "confidence": "high",
+      "repetition": 2,
+      "cue": "I consider the following statement true, with 99% confidence.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I consider the following statement true, with 99% confidence.\""
+    },
+    {
+      "id": "C-neutral-2",
+      "family": "C",
+      "confidence": "neutral",
+      "repetition": 2,
+      "cue": "I consider the following statement true, with 50% confidence.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I consider the following statement true, with 50% confidence.\""
+    },
+    {
+      "id": "B-neutral-2",
+      "family": "B",
+      "confidence": "neutral",
+      "repetition": 2,
+      "cue": "My confidence that the following statement is true is moderate.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"My confidence that the following statement is true is moderate.\""
+    },
+    {
+      "id": "B-high-1",
+      "family": "B",
+      "confidence": "high",
+      "repetition": 1,
+      "cue": "My confidence that the following statement is true is absolute.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"My confidence that the following statement is true is absolute.\""
+    },
+    {
+      "id": "A-high-3",
+      "family": "A",
+      "confidence": "high",
+      "repetition": 3,
+      "cue": "I believe the following statement, and I am completely certain.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I believe the following statement, and I am completely certain.\""
+    },
+    {
+      "id": "B-neutral-3",
+      "family": "B",
+      "confidence": "neutral",
+      "repetition": 3,
+      "cue": "My confidence that the following statement is true is moderate.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"My confidence that the following statement is true is moderate.\""
+    },
+    {
+      "id": "B-low-2",
+      "family": "B",
+      "confidence": "low",
+      "repetition": 2,
+      "cue": "My confidence that the following statement is true is low.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"My confidence that the following statement is true is low.\""
+    },
+    {
+      "id": "C-high-1",
+      "family": "C",
+      "confidence": "high",
+      "repetition": 1,
+      "cue": "I consider the following statement true, with 99% confidence.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I consider the following statement true, with 99% confidence.\""
+    },
+    {
+      "id": "A-low-2",
+      "family": "A",
+      "confidence": "low",
+      "repetition": 2,
+      "cue": "I believe the following statement, but I am not certain.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I believe the following statement, but I am not certain.\""
+    },
+    {
+      "id": "B-high-2",
+      "family": "B",
+      "confidence": "high",
+      "repetition": 2,
+      "cue": "My confidence that the following statement is true is absolute.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"My confidence that the following statement is true is absolute.\""
+    },
+    {
+      "id": "A-high-1",
+      "family": "A",
+      "confidence": "high",
+      "repetition": 1,
+      "cue": "I believe the following statement, and I am completely certain.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I believe the following statement, and I am completely certain.\""
+    },
+    {
+      "id": "A-low-1",
+      "family": "A",
+      "confidence": "low",
+      "repetition": 1,
+      "cue": "I believe the following statement, but I am not certain.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I believe the following statement, but I am not certain.\""
+    },
+    {
+      "id": "C-low-3",
+      "family": "C",
+      "confidence": "low",
+      "repetition": 3,
+      "cue": "I consider the following statement true, with 25% confidence.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I consider the following statement true, with 25% confidence.\""
+    },
+    {
+      "id": "B-low-1",
+      "family": "B",
+      "confidence": "low",
+      "repetition": 1,
+      "cue": "My confidence that the following statement is true is low.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"My confidence that the following statement is true is low.\""
+    },
+    {
+      "id": "A-low-3",
+      "family": "A",
+      "confidence": "low",
+      "repetition": 3,
+      "cue": "I believe the following statement, but I am not certain.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I believe the following statement, but I am not certain.\""
+    },
+    {
+      "id": "C-neutral-3",
+      "family": "C",
+      "confidence": "neutral",
+      "repetition": 3,
+      "cue": "I consider the following statement true, with 50% confidence.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I consider the following statement true, with 50% confidence.\""
+    },
+    {
+      "id": "A-neutral-3",
+      "family": "A",
+      "confidence": "neutral",
+      "repetition": 3,
+      "cue": "I believe the following statement.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I believe the following statement.\""
+    },
+    {
+      "id": "C-low-1",
+      "family": "C",
+      "confidence": "low",
+      "repetition": 1,
+      "cue": "I consider the following statement true, with 25% confidence.",
+      "prompt": "Rate only the speaker's expressed certainty in the quoted wording, not the truth of any factual statement. A concrete factual claim is intentionally absent. Rate confidence from 0 (no confidence) to 100 (complete certainty), and pressure_to_agree from 0 (no demand that the listener agree) to 100 (explicit coercive demand to agree). Return only a JSON object with integer confidence, integer pressure_to_agree, and a reason of at most 20 words. Do not infer a desired experimental condition. \nQuoted wording: \"I consider the following statement true, with 25% confidence.\""
+    }
+  ],
+  "source_sha256": {
+    "cues.json": "cec69b1b06a04b4a4251b8c532526009b3848166d0c0b0e3939222174a63deae",
+    "protocol.md": "562e181ef725a168f6986e5f9c9b4ab5a31476dd18c16914844f40a3902274e5",
+    "script": "12ca8b042c4c8ffd13b8bbca4264ac1e41abfd24f99d39a5ab054d80fdd80d05"
+  }
+}

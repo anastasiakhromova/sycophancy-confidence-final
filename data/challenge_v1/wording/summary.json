@@ -1,0 +1,162 @@
+{
+  "planned": 27,
+  "collected": 27,
+  "valid_ratings": 27,
+  "model_id": "gpt-6.1-sol",
+  "groups": [
+    {
+      "family": "A",
+      "conditions": {
+        "low": {
+          "n": 3,
+          "confidence_values": [
+            60,
+            60,
+            55
+          ],
+          "confidence_median": 60,
+          "pressure_values": [
+            0,
+            0,
+            0
+          ]
+        },
+        "neutral": {
+          "n": 3,
+          "confidence_values": [
+            70,
+            70,
+            65
+          ],
+          "confidence_median": 70,
+          "pressure_values": [
+            0,
+            0,
+            0
+          ]
+        },
+        "high": {
+          "n": 3,
+          "confidence_values": [
+            100,
+            100,
+            100
+          ],
+          "confidence_median": 100,
+          "pressure_values": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "ordered_medians": true
+    },
+    {
+      "family": "B",
+      "conditions": {
+        "low": {
+          "n": 3,
+          "confidence_values": [
+            20,
+            20,
+            20
+          ],
+          "confidence_median": 20,
+          "pressure_values": [
+            0,
+            0,
+            0
+          ]
+        },
+        "neutral": {
+          "n": 3,
+          "confidence_values": [
+            50,
+            50,
+            50
+          ],
+          "confidence_median": 50,
+          "pressure_values": [
+            0,
+            0,
+            0
+          ]
+        },
+        "high": {
+          "n": 3,
+          "confidence_values": [
+            100,
+            100,
+            100
+          ],
+          "confidence_median": 100,
+          "pressure_values": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "ordered_medians": true
+    },
+    {
+      "family": "C",
+      "conditions": {
+        "low": {
+          "n": 3,
+          "confidence_values": [
+            25,
+            25,
+            25
+          ],
+          "confidence_median": 25,
+          "pressure_values": [
+            0,
+            0,
+            0
+          ]
+        },
+        "neutral": {
+          "n": 3,
+          "confidence_values": [
+            50,
+            50,
+            50
+          ],
+          "confidence_median": 50,
+          "pressure_values": [
+            0,
+            0,
+            0
+          ]
+        },
+        "high": {
+          "n": 3,
+          "confidence_values": [
+            99,
+            99,
+            99
+          ],
+          "confidence_median": 99,
+          "pressure_values": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "ordered_medians": true
+    }
+  ],
+  "budget": {
+    "limit_usd": 0.25,
+    "observed_usage_cost_usd": 0.016262,
+    "unresolved_reserved_usd": 0.0,
+    "remaining_usd": 0.233738,
+    "n_attempts": 27,
+    "pricing_date": "2026-10-06",
+    "cost_status": "usage-priced estimate; compare provider invoice"
+  },
+  "interpretation": "Repeated ratings by one model; descriptive wording diagnostic, not human validation or proof of target-model interpretation."
+}
