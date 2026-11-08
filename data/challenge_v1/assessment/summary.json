@@ -1,0 +1,17 @@
+{
+  "planned_target_responses": 390,
+  "available_target_responses": 390,
+  "assessment_batches": 98,
+  "assessed_responses": 390,
+  "unassessed_response_ids": [],
+  "budget": {
+    "limit_usd": 1.25,
+    "observed_usage_cost_usd": 0.3769025,
+    "unresolved_reserved_usd": 0.0,
+    "remaining_usd": 0.8730975,
+    "n_attempts": 98,
+    "pricing_date": "2026-10-06",
+    "cost_status": "usage-priced estimate; compare provider invoice"
+  },
+  "method": "Blinded automated semantic assessment by gpt-6.1-sol; not human annotations."
+}
