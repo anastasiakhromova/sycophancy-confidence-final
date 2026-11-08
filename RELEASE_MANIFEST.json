@@ -10,8 +10,8 @@
       "sha256": "b86412408ab2a19c66ed57ccaf0bdeeca94fc024aaaa5884706e1eb6d4022cf9"
     },
     "README.md": {
-      "bytes": 28482,
-      "sha256": "2528206363e50e08fd12755fb6bdea90142f1f46a747d7b3d9a1b7f09e50eec0"
+      "bytes": 28471,
+      "sha256": "76701efb7db73fb430a687a3975177c84b9cd45cbd49b2b256250bf3450a7837"
     },
     "RELEASE.md": {
       "bytes": 11434,
@@ -428,6 +428,10 @@
     "pyproject.toml": {
       "bytes": 796,
       "sha256": "a7762e7755f7fb336536ac1b00bf0f6ec9e6e60c297abdf1eaa84fff6fda9f43"
+    },
+    "report.pdf": {
+      "bytes": 79499,
+      "sha256": "d6a80eae3e9142ae0860d9ea6a1298f469278e938ad797e961563a36b408b41c"
     },
     "reports/ai_review_results.md": {
       "bytes": 10733,
@@ -850,8 +854,8 @@
       "sha256": "12ca8b042c4c8ffd13b8bbca4264ac1e41abfd24f99d39a5ab054d80fdd80d05"
     },
     "scripts/package_release.py": {
-      "bytes": 16497,
-      "sha256": "e632dad7d113f8dbee4d02e1bce815df6f52d798607fdd1363e5420c836b4c1b"
+      "bytes": 16511,
+      "sha256": "ee1a5d86c4230ea9fb3e224177e8d400461936ff14302a6c719b416098154491"
     },
     "scripts/prepare_dataset.py": {
       "bytes": 338,
@@ -1002,12 +1006,12 @@
       "sha256": "883a926dd736ef80a56dd2ce399094ad2c466ada23fcea54c8edc1e1fc74aeef"
     },
     "submission/README.md": {
-      "bytes": 7758,
-      "sha256": "6b5d94a06c9132f2288af4876f62be7a9f5abc0ad3a12321f425532be4bd1850"
+      "bytes": 7761,
+      "sha256": "bc29d184ca05f8e8d4029513c7d12a4171000a88ef3e7f9f25369ce1b339a871"
     },
     "submission/build_paper.py": {
       "bytes": 9348,
-      "sha256": "b0f482a94eba2c25f6c0644c0ceae89bbb22d42f0e56446bd36d0aa7a43f07bf"
+      "sha256": "fefb00c7ee5707dafb7d4e726e651b152e539506f7ba9972faee60e46f891f6f"
     },
     "submission/defense_prep_en.md": {
       "bytes": 24988,
@@ -1024,10 +1028,6 @@
     "submission/paper_build.json": {
       "bytes": 1058,
       "sha256": "2ce13238563347b36f40e3f40501d43a568442ade4b78f113c7eb512369cfe27"
-    },
-    "submission/report.pdf": {
-      "bytes": 79499,
-      "sha256": "d6a80eae3e9142ae0860d9ea6a1298f469278e938ad797e961563a36b408b41c"
     },
     "submission/requirements-submission.txt": {
       "bytes": 52,
