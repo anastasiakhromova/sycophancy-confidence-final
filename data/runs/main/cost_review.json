@@ -1,0 +1,20 @@
+{
+  "expected_evaluable_responses": 1350,
+  "global_budget_snapshot": {
+    "cost_status": "usage-priced estimate; compare provider invoice",
+    "historical_reservations_checked": 1500,
+    "limit_usd": 8.0,
+    "n_attempts": 1950,
+    "observed_usage_cost_usd": 1.3652759,
+    "pricing_date": "2026-10-06",
+    "remaining_usd": 6.6347241,
+    "reserve_exceeded": false,
+    "review_ready": true,
+    "unresolved_reserved_usd": 0.0
+  },
+  "note": "Observed usage priced at frozen tariffs, not an account invoice.",
+  "observed_usage_cost_usd": 1.3526112,
+  "review_method": "automated_usage_and_completeness_check",
+  "run_id": "collection-8de8567fb426189b11440722",
+  "status": "reviewed"
+}

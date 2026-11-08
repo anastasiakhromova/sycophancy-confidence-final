@@ -1,0 +1,180 @@
+{
+  "completed_responses": 1350,
+  "evaluator_version": "1.2",
+  "global_budget": {
+    "cost_status": "usage-priced estimate; compare provider invoice",
+    "historical_reservations_checked": 1500,
+    "limit_usd": 8.0,
+    "n_attempts": 1950,
+    "observed_usage_cost_usd": 1.3652759,
+    "pricing_date": "2026-10-06",
+    "remaining_usd": 6.6347241,
+    "reserve_exceeded": false,
+    "review_ready": true,
+    "unresolved_reserved_usd": 0.0
+  },
+  "metadata_sha256": "e625c17045a96b6273960f9bda9af4ef5d3bd19f6b30103b0b68f22b3a8342a9",
+  "model_usage": [
+    {
+      "input_tokens": 18282,
+      "input_tokens_missing": 0,
+      "mean_latency_seconds": 1.8232280519974624,
+      "model": "gpt-6-luna",
+      "n_responses": 450,
+      "observed_cost_usd": 0.0101772,
+      "output_tokens": 16698,
+      "output_tokens_missing": 0,
+      "priced_responses": 450,
+      "reasoning_tokens": 1208,
+      "reasoning_tokens_missing": 0
+    },
+    {
+      "input_tokens": 18282,
+      "input_tokens_missing": 0,
+      "mean_latency_seconds": 2.6362151386637964,
+      "model": "gpt-6.1-sol",
+      "n_responses": 450,
+      "observed_cost_usd": 0.224214,
+      "output_tokens": 18765,
+      "output_tokens_missing": 0,
+      "priced_responses": 450,
+      "reasoning_tokens": 0,
+      "reasoning_tokens_missing": 0
+    },
+    {
+      "input_tokens": 18282,
+      "input_tokens_missing": 0,
+      "mean_latency_seconds": 2.5648273011118485,
+      "model": "gpt-6-astra",
+      "n_responses": 450,
+      "observed_cost_usd": 1.11822,
+      "output_tokens": 18708,
+      "output_tokens_missing": 0,
+      "priced_responses": 450,
+      "reasoning_tokens": 0,
+      "reasoning_tokens_missing": 0
+    }
+  ],
+  "observed_response_cost_usd": 1.3526112,
+  "persisted_responses": 1350,
+  "planned_responses": 1350,
+  "run_id": "collection-8de8567fb426189b11440722",
+  "runs": [
+    {
+      "budget": {
+        "cost_status": "usage-priced estimate; compare provider invoice",
+        "limit_usd": 8.0,
+        "n_attempts": 1239,
+        "observed_usage_cost_usd": 0.9677658,
+        "pricing_date": "2026-10-06",
+        "remaining_usd": 6.9837242,
+        "unresolved_reserved_usd": 0.04851
+      },
+      "budget_exhausted": false,
+      "collection_complete": true,
+      "complete_text_responses": 450,
+      "completed_responses": 450,
+      "cost_limit_reached": false,
+      "fatal_error": null,
+      "incomplete_responses": 0,
+      "max_requests": 1350,
+      "missing_response_ids": [],
+      "model": "gpt-6-luna",
+      "persisted_responses": 450,
+      "physical_attempts": 450,
+      "planned_responses": 450,
+      "remaining_responses": 0,
+      "run_dir": "C:\\Users\\oreho\\Documents\\Codex\\2026-10-06\\files-pasted-by-the-user-senior\\outputs\\sycophancy-confidence\\data\\runs\\main\\gpt-6-luna",
+      "run_id": "19cb2e0f-75db-49ef-ac41-8215971b16e3",
+      "status": "complete",
+      "successful_responses": 450,
+      "summary_fresh": true,
+      "timestamp": "2026-10-06T01:23:50.938452+00:00"
+    },
+    {
+      "budget": {
+        "cost_status": "usage-priced estimate; compare provider invoice",
+        "limit_usd": 8.0,
+        "n_attempts": 1500,
+        "observed_usage_cost_usd": 1.3555398,
+        "pricing_date": "2026-10-06",
+        "remaining_usd": 6.6444602,
+        "unresolved_reserved_usd": 0.0
+      },
+      "budget_exhausted": false,
+      "collection_complete": true,
+      "complete_text_responses": 450,
+      "completed_responses": 450,
+      "cost_limit_reached": false,
+      "fatal_error": null,
+      "incomplete_responses": 0,
+      "max_requests": 1350,
+      "missing_response_ids": [],
+      "model": "gpt-6.1-sol",
+      "persisted_responses": 450,
+      "physical_attempts": 450,
+      "planned_responses": 450,
+      "remaining_responses": 0,
+      "run_dir": "C:\\Users\\oreho\\Documents\\Codex\\2026-10-06\\files-pasted-by-the-user-senior\\outputs\\sycophancy-confidence\\data\\runs\\main\\gpt-6.1-sol",
+      "run_id": "e30dd98c-55b7-46bc-a753-ec2e170a60bc",
+      "status": "complete",
+      "successful_responses": 450,
+      "summary_fresh": true,
+      "timestamp": "2026-10-06T01:29:58.469192+00:00"
+    },
+    {
+      "budget": {
+        "cost_status": "usage-priced estimate; compare provider invoice",
+        "limit_usd": 8.0,
+        "n_attempts": 1490,
+        "observed_usage_cost_usd": 1.3495718,
+        "pricing_date": "2026-10-06",
+        "remaining_usd": 6.6423607,
+        "unresolved_reserved_usd": 0.0080675
+      },
+      "budget_exhausted": false,
+      "collection_complete": true,
+      "complete_text_responses": 450,
+      "completed_responses": 450,
+      "cost_limit_reached": false,
+      "fatal_error": null,
+      "incomplete_responses": 0,
+      "max_requests": 1350,
+      "missing_response_ids": [],
+      "model": "gpt-6-astra",
+      "persisted_responses": 450,
+      "physical_attempts": 450,
+      "planned_responses": 450,
+      "remaining_responses": 0,
+      "run_dir": "C:\\Users\\oreho\\Documents\\Codex\\2026-10-06\\files-pasted-by-the-user-senior\\outputs\\sycophancy-confidence\\data\\runs\\main\\gpt-6-astra",
+      "run_id": "aaa28752-84f5-4276-831f-c771f383a302",
+      "status": "complete",
+      "successful_responses": 450,
+      "summary_fresh": true,
+      "timestamp": "2026-10-06T01:29:29.974219+00:00"
+    }
+  ],
+  "status": "complete",
+  "usage": {
+    "cache_write_tokens": {
+      "observed_subtotal": 0,
+      "records_missing_usage": 0
+    },
+    "cached_input_tokens": {
+      "observed_subtotal": 0,
+      "records_missing_usage": 0
+    },
+    "input_tokens": {
+      "observed_subtotal": 54846,
+      "records_missing_usage": 0
+    },
+    "output_tokens": {
+      "observed_subtotal": 54171,
+      "records_missing_usage": 0
+    },
+    "reasoning_tokens": {
+      "observed_subtotal": 1208,
+      "records_missing_usage": 0
+    }
+  }
+}
