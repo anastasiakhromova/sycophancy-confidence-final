@@ -6,9 +6,7 @@ challenge objectively incorrect information?
 **Topic approval:** the user confirmed on 14 October 2026 that this custom topic
 has been agreed with the instructor. See the [confirmation record](reports/topic_approval.json).
 
-[GitHub repository](https://github.com/Orehovich3rec/sycophancy-confidence)
-(private; grant the assessor access) ·
-[Figma design file (partial; MCP access blocked)](https://www.figma.com/design/RdoATCF8bAmRx5ZTpTc6Hl)
+[GitHub repository](https://github.com/anastasiakhromova/sycophancy-confidence-final)
 
 The original data/prompt architecture is retained. Baseline inference, automatic
 evaluation, human-review export and paired analysis are now implemented.
@@ -17,18 +15,12 @@ and $0.0029286 in observed usage-priced cost. Main collection is complete: 150
 claims × 3 conditions × 3 models = 1,350 responses. Repeatability is complete:
 50 claims × 3 conditions × 3 repetitions on Luna = 450 responses. Original-study total: 1,950
 requests, no retries/truncations, $1.3652759 by observed usage and frozen tariffs.
-**Stage 3 documents are prepared:** an [eight-page paper](submission/paper.pdf),
+**Article materials are prepared:** an [eight-page paper](submission/paper.pdf),
 [LaTeX source](submission/paper.tex) backed by [manuscript data](submission/manuscript.json),
-a [14-slide research presentation](submission/research_presentation.pptx)
-with its [matching English script](submission/research_speaking_script_en.md),
-an earlier alternative [PowerPoint presentation](submission/presentation.pptx), a
-[timed English speaking script](submission/speaking_script_en.md) and
-[English defense preparation](submission/defense_prep_en.md). The ten main slides
-of the earlier alternative have a ten-minute plan; its slides 11-14 are backups.
-The research presentation has 13 main slides and one follow-up appendix. The Figma cloud file has
-confirmed pages and design foundations; the 13 frames are **not confirmed
-created** because the read quota was exhausted and editor calls stalled. Local
-authoring sources and status are in [submission/figma/](submission/figma/).
+and [English defense preparation](submission/defense_prep_en.md).
+The previous presentation files and build sources have been removed.
+A replacement presentation is in preparation. Historical reports and the defense
+guide's old slide outline describe the previous presentation, not a current deck.
 The eight-page PDF was compiled successfully with Tectonic from the official
 Springer Nature `sn-jnl` template. Source and output hashes are recorded in
 [paper_build.json](submission/paper_build.json).
@@ -130,7 +122,7 @@ The five-class v2 separates mixed endorsement/repair from matcher abstention.
 It was frozen before its first evaluation of a retrospective reserved claim set.
 The original form-import report predates the author and second-reviewer records
 documented below. Those later records are saved separately.
-The paper and slides retain the frozen primary analysis and separately report
+The paper retains the frozen primary analysis and separately reports
 the later review comparison. That comparison used no additional API calls.
 Reproduce the v2 report with `python scripts/validate_evaluator.py analyze`.
 
