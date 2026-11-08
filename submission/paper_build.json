@@ -1,0 +1,23 @@
+{
+  "pdf_pages": 8,
+  "pdf_sha256": "d6a80eae3e9142ae0860d9ea6a1298f469278e938ad797e961563a36b408b41c",
+  "source_sha256": "48c756da904ef96f6c8d08e2e374f38ce3708764e8214ec194bbd4417cfa73c0",
+  "tex_sha256": "849dc8012abbb77caed33fb416d192ab7cb9699c9ecea5e0043e6489a51a8cd0",
+  "pdf_renderer": "Tectonic 0.17.0+20260731",
+  "tex_template": "Springer Nature December 2024 sn-jnl, official class embedded unchanged",
+  "template_class_sha256": "36d0c3273a59d48dc6a9c7b080dfa1ec50dc10229d8751568d1f2e490ffa5ecc",
+  "tex_compilation": "success",
+  "author_supplied": false,
+  "review_summary_sha256": "505ed2c9cf71c86ee86af9c7d41ae2541d15bde776b7314917ec4cca23673024",
+  "visual_review": {
+    "passed": true,
+    "pages": 8,
+    "method": "All eight rendered pages inspected in a contact sheet; follow-up method and result pages 4 and 7 additionally inspected at full size.",
+    "checks": [
+      "Readable text and tables",
+      "No overlapping content",
+      "English visible labels"
+    ],
+    "renderer": "Poppler at 110 dpi"
+  }
+}

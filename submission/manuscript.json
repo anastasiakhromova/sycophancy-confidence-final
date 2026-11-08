@@ -1,0 +1,176 @@
+{
+  "title": "The Effect of User Confidence on Factual Sycophancy in GPT Models",
+  "subtitle": "A controlled study with an audit of response evaluation",
+  "author": "",
+  "affiliation": "Natural Language Processing, Universita degli Studi di Milano",
+  "date": "14 October 2026",
+  "abstract": "We test whether expressed user confidence changes language models' acceptance of false factual claims. The original paired study uses 150 English claims, three confidence cues and three GPT model identifiers: 1,350 main responses plus 150 pilot and 450 repeated responses. The frozen evaluator detects no main-set false-fact acceptance; correction rates range from 93.33% to 98.00%. A selected 241-response AI semantic review, later approved by the author, identifies missed corrections and unresolved mixed answers. Original and revised evaluators match 74.03% and 81.82% of 231 determinate reference decisions; these are development-sample diagnostics, not held-out human validation. A separate 30-claim follow-up adds three cue families, neutral knowledge questions and matched true controls, producing 390 responses. Automated semantic assessment labels 265/270 false-claim answers CORRECT and 2/270 SYCOPHANTIC; the pooled HIGH-minus-LOW acceptance difference is +0.00 percentage points. Results remain specific to these prompts and automated measurements; they do not establish a general confidence effect or the absence of sycophancy.",
+  "keywords": "sycophancy; user confidence; factual correction; paired evaluation; measurement validity",
+  "sections": [
+    {
+      "heading": "1 Introduction",
+      "paragraphs": [
+        "An assistant can accommodate a user's tone while rejecting a false statement. Responses that begin with agreement and subsequently supply the correct fact complicate this distinction. We test whether expressed user confidence changes explicit acceptance of a false proposition; politeness, hedging and length alone are not sycophancy.",
+        "Perez et al. [1] investigate language-model behaviors using model-written evaluations. Sharma et al. [2] examine sycophancy across free-form tasks and connect it to human preference judgments. Sicilia, Inan and Alikhani [3] are the closest antecedent: they vary correctness and confidence of user suggestions. Our question is therefore not new; our narrower study tests short factual assessments and the reliability of their outcome measurement. We do not implement their SyRoUP uncertainty-calibration algorithm.",
+        "TruthfulQA [4] tests common misconceptions. Our original corpus instead prioritizes simple, source-checkable propositions, producing a correction ceiling. A separate prospective follow-up adds plausible factual confusions, multiple cue families and controls. Contributions are an auditable paired collection, a cautious negative finding for the original prompts, and diagnostics of lexical evaluation and wording sensitivity. This is an exploratory course study, not a general sycophancy benchmark."
+      ]
+    },
+    {
+      "heading": "2 Research question and methodology",
+      "paragraphs": [
+        "The primary hypothesis is that HIGH confidence increases explicit false-fact acceptance relative to LOW confidence. NEUTRAL provides an intermediate condition. Factual correction is a separate secondary outcome; a response can fail a correction rule without endorsing the falsehood. Following the distinction between a textual intervention and its interpretation [5], the treatment is the exact cue wording. Attributing any difference to a general psychological construct of confidence requires additional assumptions."
+      ]
+    },
+    {
+      "heading": "2.1 Data and confidence manipulation",
+      "paragraphs": [
+        "The main corpus contains 150 claims: 30 each in geography, history, science, technology and general knowledge. Each record contains a false claim, a false reference answer, a true answer and source information. AI-assisted source review recorded evidence from 140 distinct URLs. This establishes traceability, not independent human fact verification. A prospective rubric assigned 88 claims to easy and 62 to medium difficulty; these categories do not measure what each model knows.",
+        "A 50-claim pilot yielded 150 automatically correct answers. The main corpus retained all 50 pilot claims and expanded topical coverage. Answer aliases were developed on the pilot before the main freeze, so the main corpus is not fully held out. Consequently, the design is not a preregistration made before any data were observed. Dataset, prompt, alias and evaluation specifications were frozen before the main collection; raw responses and their original labels remain intact after the supplementary audit.",
+        "Each original prompt combines a cue (Table 1), the unchanged false claim and 'Please assess this statement. Answer in 1 to 3 sentences.' Requests use separate conversations. No instruction demands agreement or invokes expertise. Cue length varies. The original study had one cue family and no manipulation check; the follow-up addresses these design limitations separately."
+      ]
+    },
+    {
+      "table": "prompts",
+      "caption": "Table 1 Exact confidence cues preceding the same false statement"
+    },
+    {
+      "heading": "2.2 Models and collection",
+      "paragraphs": [
+        "The recorded model IDs are gpt-6-luna, gpt-6.1-sol and gpt-6-astra, queried through the OpenAI Responses API on 6 October 2026. These are three configured identifiers accessed through the same recorded provider API. Architectural family and capability ordering were not independently verified, so between-model differences cannot identify a causal effect of capability. The recorded IDs describe these runs and do not guarantee future availability or identical behavior under an alias.",
+        "All requests use reasoning.effort=low and max_output_tokens=512. Temperature, top_p and generation seed are omitted. The experiment supplies no tools, web search, retrieval or shared history to the evaluated models. Research-source verification is a separate preparation step. The fixed instruction requests brief answers, while the token cap accommodates both reasoning and visible output.",
+        "The main design yields 150 claims x 3 conditions x 3 models = 1,350 responses. Each model receives the same seeded shuffled order of 450 items (seed 20261006). A robustness collection samples 50 main claims with a recorded seed and repeats all three conditions three times on gpt-6-luna, yielding 450 responses. These are repeated observations of 50 claims, not 450 independently sampled facts. Together with the pilot, all 1,950 planned requests completed without retries or truncated outputs."
+      ]
+    },
+    {
+      "heading": "2.3 Outcomes and statistical analysis",
+      "paragraphs": [
+        "The frozen evaluator (version 1.2) produces CORRECT, SYCOPHANTIC or UNCERTAIN using answer aliases and linguistic rules. CORRECT requires recognized factual repair; SYCOPHANTIC targets explicit false-fact acceptance. UNCERTAIN also serves as a fallback when matching fails. It therefore cannot be interpreted directly as expressed epistemic uncertainty. A review flag marks cases requiring closer inspection without changing the provisional class. An exploratory revision, v2.0, separates MIXED responses and UNRESOLVED rule abstentions. It was developed after examining AI judgments and does not replace the frozen primary labels.",
+        "For claim i, model m and condition c, let S(i,m,c) indicate an automatic SYCOPHANTIC label and C(i,m,c) indicate CORRECT. For outcome Y in {S,C}, the primary contrast is D(m) = (1/150) sum_i [Y(i,m,HIGH) - Y(i,m,LOW)]. Results express this difference in percentage points. Matching on the same claims controls their factual content. It does not remove evaluator error, wording effects or possible service changes during collection.",
+        "Main analysis uses complete condition triplets, exact two-sided paired McNemar tests and Holm adjustment [6] across three contrasts within each model/outcome family, not globally. A 5,000-resample bootstrap retains all conditions, models and repetitions within claims. Cochran's Q is supplementary because discordance is sparse. A planned logistic generalized estimating equation [7] includes model, condition and their interaction with claim clustering. The constant primary outcome makes its coefficients unidentifiable; no finite odds ratios are substituted.",
+        "After inspecting the original results, we added a precision calculation for zero detected events [8]. With n independent Bernoulli claims and zero events, the one-sided 95% upper bound is 1 - 0.05^(1/n). At n=150 this is 1.98% for one model-condition cell. It assumes comparable independent claims and valid labels, applies to the detector outcome, and is not a simultaneous nine-cell bound or a confidence interval for the paired treatment effect. The curated corpus is not a probability sample. This retrospective calculation does not constitute prospective power planning."
+      ]
+    },
+    {
+      "heading": "2.4 Controlled follow-up",
+      "paragraphs": [
+        "After the original ceiling was observed, a separate protocol fixed 30 new claims, six per domain, with primary sources and plausible false alternatives. Examples distinguish Mercury's solar day from its orbital period and an IPv6 minimum MTU from a common configuration. Difficulty is a selection rationale, not an established property. Every item is retained regardless of its answers.",
+        "On 23 October 2026 (UTC), luna receives 30 neutral knowledge questions first, then a seeded shuffle of 270 false assertions (30 claims x three confidence levels x three cue families) and 90 matched true assertions (family A only). Settings match the original study. Family A uses Table 1; B varies low/moderate/absolute confidence with equal word counts; C uses 25%/50%/99% with otherwise matched wording. Sources are never supplied to the target.",
+        "Sol rates the nine cues three times each, without condition names, for confidence and pressure to agree. Separately, a fixed rubric guides blinded automated Sol assessment: CORRECT/SYCOPHANTIC/MIXED/UNRESOLVED for false statements, with distinct knowledge and truth-control labels. Model, cue and condition metadata are withheld. Raw outputs and exact evidence spans are saved; invalid judgments stay missing. The primary contrast averages paired HIGH-minus-LOW acceptance across three families within each claim, then across claims, with 5,000 claim bootstraps and a 10,000-draw sign-flip diagnostic. Secondary per-family McNemar tests use Holm correction across three families. Knowledge-correct restriction is diagnostic; MIXED assignments supply separate sensitivity bounds."
+      ]
+    },
+    {
+      "heading": "3 Experimental results",
+      "paragraphs": [
+        "The main collection is complete with 150 matched claims for each model. Table 2 gives the original automatic results. Across all models, 1,296 responses are CORRECT and 54 are UNCERTAIN; none is SYCOPHANTIC. A zero observed difference does not establish behavioral equivalence: the empirical bootstrap is degenerate for this endpoint, and the planned logistic model is not estimable."
+      ]
+    },
+    {
+      "table": "main",
+      "caption": "Table 2 Frozen automatic labels in the main experiment, with 150 responses per row. C denotes CORRECT, U the UNCERTAIN fallback, and S SYCOPHANTIC"
+    },
+    {
+      "paragraphs": [
+        "HIGH-minus-LOW automatic correction differences are +2.00 percentage points for gpt-6-luna, +0.67 for gpt-6.1-sol and -2.67 for gpt-6-astra. Corresponding Holm-adjusted exact McNemar p-values are 1.000, 1.000 and 0.375. None rejects at 0.05. The astra percentile bootstrap interval excludes zero (-5.33 to -0.67 points), whereas its exact test does not reject. These methods differ in discrete small-sample behavior and multiplicity treatment. Selecting the favorable procedure would overstate evidence, especially before resolving measurement errors.",
+        "The global ledger records 79,203 input and 74,629 output tokens, including 2,332 reasoning tokens within output. Usage multiplied by frozen tariffs totals $1.3652759: $0.0029286 for the pilot, $1.3526112 for the main collection and $0.0097361 for repeated runs. This is an accounting calculation rather than a provider invoice. The collection used an $8 global budget guard."
+      ]
+    },
+    {
+      "heading": "3.1 Semantic review and evaluator diagnostics",
+      "paragraphs": [
+        "The selected semantic audit covers 225 main responses (171 automatically CORRECT and all 54 non-CORRECT) plus all 16 non-CORRECT robustness responses. Three AI reviewers inspect disjoint subsets with model, condition and automatic label hidden; wording may reveal condition, and the coordinator knew earlier findings. Reasons and verbatim evidence accompany judgments. This enriched sample is not representative of all 1,950 responses.",
+        "The author approved existing AI assessments, rather than annotating from scratch. The author reports an independent second review of all 241 answers with complete agreement, but original per-item exports are unavailable. Stored rows were transcribed from this summary using existing decisions: 231 CORRECT and ten UNRESOLVED. They do not independently verify the procedure or measure inter-rater reliability. Comparisons use an AI-origin reference, not preserved human ground truth.",
+        "The main reference has 221 CORRECT and four UNRESOLVED judgments: 50 original non-CORRECT answers are missed corrections. The robustness reference has ten CORRECT and six UNRESOLVED. On 231 determinate items, all CORRECT, v1 matches 171/231 (74.03%) and exploratory v2 matches 189/231 (81.82%); abstentions count as failures. Supported-class macro F1 is 0.8507 versus 0.9000. Four-class macro F1, assigning zero to undefined terms, is 0.2127 versus 0.2250. Absent classes supply no validation evidence; sycophancy recall is unestimable.",
+        "V2 previously saw these AI judgments, so these are development-sample diagnostics. Its 100% agreement among covered determinate cases is not overall accuracy. For example, v1 misses a piano answer that correctly states 88 keys while contrasting smaller keyboards with 76. Across the full main collection, v2 yields 1,196 CORRECT, five MIXED and 149 UNRESOLVED. Frozen primary labels remain unchanged."
+      ]
+    },
+    {
+      "heading": "3.2 Mixed responses and sensitivity",
+      "paragraphs": [
+        "The four unresolved main answers are all luna: two LOW, one NEUTRAL and one HIGH. They concern the date line and six-dot versus eight-dot Braille. One HIGH answer calls the statement 'generally correct' while explaining that westward crossing moves the calendar forward, contrary to the user's premise. Opening agreement and factual repair imply different labels.",
+        "A conditional sensitivity analysis retains unreviewed automatic CORRECT labels, accepts determinate AI corrections and varies unresolved cases only. Main luna HIGH-minus-LOW acceptance ranges from -1.33 to +0.67 percentage points; sol and astra remain zero. These are logical ranges, not confidence intervals, and do not protect against false negatives among unreviewed answers.",
+        "Robustness labels are 434 CORRECT, 11 UNCERTAIN and five SYCOPHANTIC. All positives concern one date-line claim: two NEUTRAL and three HIGH. Acceptance is 0%, 1.33%, 2.00%; the HIGH-minus-LOW claim-bootstrap interval is 0 to 6 points. These five responses are not independent factual failures. Six unresolved cases include those five mixed answers and a LOW Indian Ocean answer combining a false claim with correction. Conditional acceptance ranges from -0.67 to +2.00 points. Both studies' ranges include zero and both signs."
+      ]
+    },
+    {
+      "table": "sensitivity",
+      "caption": "Table 3 Post-hoc sensitivity ranges for acceptance, conditional on fixed unreviewed labels and determinate AI judgments. These ranges are not sampling confidence intervals"
+    },
+    {
+      "heading": "3.3 Follow-up results",
+      "paragraphs": [
+        "All 390 target answers and their automated assessments are available. Knowledge questions yield 30/30 CORRECT answers; true controls yield 89 ACCEPTED and one MIXED answer. The 270 false-claim answers comprise 265 CORRECT, 2 SYCOPHANTIC, 3 MIXED and 0 UNRESOLVED (Table 4). All 30 claims have complete paired coverage.",
+        "The pooled HIGH-minus-LOW acceptance contrast is 0.00 percentage points, with a degenerate claim-bootstrap interval [0.00, 0.00] and sign-flip p=1.000. Both acceptances concern the inaugural Booker Prize, under A/LOW and C/HIGH; opposite cue differences cancel within the same claim. Family differences are -3.33, 0.00 and +3.33 points, all Holm p=1.000. MIXED assignment bounds are [-2.22, +1.11] points. The zero pooled interval does not establish equivalence.",
+        "All 27 wording ratings are valid: LOW/middle/HIGH confidence medians are A 60/70/100; B 20/50/100; C 25/50/99. Every pressure-to-agree rating is zero. These repeated Sol judgments support wording order, not independent human construct validation. Added usage-priced cost is $0.407601; the recorded study total is $1.772877, below the $8 guard.",
+        "Correction remains near ceiling. The new set therefore does not establish increased empirical difficulty for luna, despite its plausible confusions. The controls and multiple phrasings strengthen the design, but sensitivity to rare sycophancy remains limited. Comparing original and new correction rates is descriptive: corpus, date, mutable alias and evaluator differ."
+      ]
+    },
+    {
+      "table": "challenge",
+      "caption": "Table 4 Follow-up automated labels. C counts are out of 30 per condition; S/M/U totals are out of 90 per cue family. S denotes SYCOPHANTIC, M MIXED and U UNRESOLVED."
+    },
+    {
+      "heading": "4 Concluding remarks",
+      "paragraphs": [
+        "The original study does not establish a general confidence effect or the absence of sycophancy. Small automatic correction differences are vulnerable to evaluator error; verbal agreement can coexist with factual repair. The follow-up separately tests new claims, three cue families and knowledge and truth controls, preserving the original result.",
+        "Remaining limitations include one provider, mutable model aliases, a small curated English corpus and automated semantic judgments. The original AI-reference audit is selected, lacks preserved independent reviewer exports and overlaps v2 development; all its determinate examples are CORRECT. New controls use one target model and one knowledge generation per fact. Model-based wording ratings do not replace a human manipulation check, and no independent human annotation of the follow-up is claimed.",
+        "Future work needs independently recorded annotations with positive and mixed cases and a sample size based on prospective precision. The repository preserves raw responses, protocols, source evidence, separate labels and offline analysis. Offline reproduction concerns these saved results; fresh API generations may differ. Claims, rather than individual repeated responses, remain the unit of analysis."
+      ]
+    },
+    {
+      "heading": "AI usage disclosure",
+      "paragraphs": [
+        "AI tools assisted with study preparation, source checks, analysis and drafting. The original supplementary AI judgments were approved by the author. Follow-up wording ratings and semantic labels are model-generated; neither constitutes independent human ground truth. Experimental responses are preserved API outputs. The author is responsible for the final interpretation."
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": 1,
+      "key": "perez2023",
+      "text": "Perez, E., et al. (2023). Discovering Language Model Behaviors with Model-Written Evaluations. Findings of ACL, 13387-13434.",
+      "url": "https://aclanthology.org/2023.findings-acl.847/"
+    },
+    {
+      "id": 2,
+      "key": "sharma2023",
+      "text": "Sharma, M., et al. (2023, revised 2025). Towards Understanding Sycophancy in Language Models. arXiv:2310.13548, version 4.",
+      "url": "https://arxiv.org/abs/2310.13548"
+    },
+    {
+      "id": 3,
+      "key": "sicilia2025",
+      "text": "Sicilia, A., Inan, M., and Alikhani, M. (2025). Accounting for Sycophancy in Language Model Uncertainty Estimation. Findings of NAACL, 7866-7881.",
+      "url": "https://doi.org/10.18653/v1/2025.findings-naacl.438"
+    },
+    {
+      "id": 4,
+      "key": "lin2022",
+      "text": "Lin, S., Hilton, J., and Evans, O. (2022). TruthfulQA: Measuring How Models Mimic Human Falsehoods. Proceedings of ACL, 3214-3252.",
+      "url": "https://doi.org/10.18653/v1/2022.acl-long.229"
+    },
+    {
+      "id": 5,
+      "key": "feder2022",
+      "text": "Feder, A., et al. (2022). Causal Inference in Natural Language Processing: Estimation, Prediction, Interpretation and Beyond. TACL, 10, 1138-1158.",
+      "url": "https://doi.org/10.1162/tacl_a_00511"
+    },
+    {
+      "id": 6,
+      "key": "holm1979",
+      "text": "Holm, S. (1979). A Simple Sequentially Rejective Multiple Test Procedure. Scandinavian Journal of Statistics, 6(2), 65-70.",
+      "url": "https://www.jstor.org/stable/4615733"
+    },
+    {
+      "id": 7,
+      "key": "liang1986",
+      "text": "Liang, K.-Y., and Zeger, S. L. (1986). Longitudinal data analysis using generalized linear models. Biometrika, 73(1), 13-22.",
+      "url": "https://doi.org/10.1093/biomet/73.1.13"
+    },
+    {
+      "id": 8,
+      "key": "clopper1934",
+      "text": "Clopper, C. J., and Pearson, E. S. (1934). The use of confidence or fiducial limits illustrated in the case of the binomial. Biometrika, 26(4), 404-413.",
+      "url": "https://doi.org/10.1093/biomet/26.4.404"
+    }
+  ]
+}

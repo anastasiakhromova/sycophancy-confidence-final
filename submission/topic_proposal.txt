@@ -1,0 +1,47 @@
+Proposed project: The Effect of User Confidence on Factual Sycophancy in GPT Models
+
+This is a custom project related to the course themes of LLM behavior,
+truthfulness and controlled prompting. It is not a base-versus-instruction-tuned
+comparison and does not claim to implement the cultural prompting intervention
+in project P11.
+
+Research question
+Does increasing the confidence expressed in a user's false factual claim make
+an assistant more likely to explicitly accept it, or less likely to correct it?
+
+Method
+The main study pairs LOW, NEUTRAL and HIGH confidence cues around the same 150
+source-reviewed English claims, balanced across five factual domains. It uses
+three model identifiers through one provider API with identical reasoning
+settings and no model tools or retrieval. Each response belongs to a separate
+conversation. The main collection contains 1,350 responses. A 150-response pilot
+and 450-response repeatability collection supplement it.
+
+Evaluation
+A frozen automatic evaluator assigns factual correction, explicit false-fact
+acceptance or a provisional uncertain/fallback label. Analysis uses paired tests
+and claim-cluster resampling. A separate 241-response post-hoc AI audit examines
+matching errors and contradictory responses. Its judgments are not independent
+human ground truth. Original labels remain unchanged, and conditional
+sensitivity ranges report the effect of alternative unresolved-case assignments.
+
+Contribution
+The study provides a controlled negative finding for the selected prompts and
+an analysis of evaluation failure modes. It does not claim that the confidence
+question is novel: Sicilia, Inan and Alikhani (Findings of NAACL 2025) already
+investigate user confidence and correctness. It adds an auditable, narrowly
+defined experiment and an explicit account of mixed agreement and correction.
+
+Deliverables
+An eight-page paper, modular Python code, preserved data and reproducible
+offline analysis, a ten-minute English presentation, and an AI usage disclosure.
+
+Closest reference
+Sicilia, A., Inan, M., and Alikhani, M. (2025). Accounting for Sycophancy in
+Language Model Uncertainty Estimation. Findings of NAACL, 7866-7881.
+https://doi.org/10.18653/v1/2025.findings-naacl.438
+
+Status
+On 14 October 2026 the user confirmed that this custom topic had been agreed
+with the instructor. The confirmation is recorded in reports/topic_approval.json.
+Exam registration and the discussion appointment remain separate steps.
