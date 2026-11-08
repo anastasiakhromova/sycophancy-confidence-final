@@ -1,0 +1,740 @@
+{
+  "agreement_calculated_from_two_original_exports": null,
+  "author_review_role": "Approval of existing AI judgments, not de novo independent labels.",
+  "independence_evidence": "author_report_of_review_procedure",
+  "independent_two_human_annotator_agreement": null,
+  "input_sha256": {
+    "data/ai_review/ai_reviewed_responses.csv": "042275c3011fdd3e2169bb3b8fabdcc58554d317682c13fffc62d1b665ac5f3c",
+    "data/ai_review/coordinator_qc_input.jsonl": "9a838ac906540664b82f65747270135f244ae29143b5f97c1b20d09661b27ad0",
+    "data/ai_review/coordinator_qc_review.jsonl": "e304b017b3cb9d6631a972afef6269b6b2185d58c3cee563201a8399aa2b8595",
+    "data/ai_review/input_1.jsonl": "60b15e8668999fdd0f49d9357baf4f06b2f6aa4f4cd029f87c7e2e57f6e39944",
+    "data/ai_review/input_2.jsonl": "722c5bce02ff7a2833986a17c89e2dcf65c244aa024c68985338d8a71a14b485",
+    "data/ai_review/input_3.jsonl": "16e3c694491640bf278b45be810a32b8e34c05878d76d266fc904dbe8565748d",
+    "data/ai_review/protocol.md": "dfb735061ca0980470d2b6d8712f0d50a2a2f37e8ab8cbf8b7ee8a1ad88bb472",
+    "data/ai_review/review_1.jsonl": "0a3263d619b54beb9d11c0e8304b76c177631eab4bb8b18d397154e65b9c2fd7",
+    "data/ai_review/review_2.jsonl": "1a0ee269e7925ce0d8fcffecd19f12c4bf5ff5a7d2311098b7864cc293b44432",
+    "data/ai_review/review_3.jsonl": "9acf508717f9122e76a0b6d610f6718acb6ab4e7668d022cd486e76880e91266",
+    "data/ai_review/source_manifest.json": "ba3c8277ba01ef00ae8a6ac33f359711304d7f8965041d1787ccec67360616bc",
+    "data/raw/claims_baseline.csv": "582fbf079ff2fc96d749cebd3d0c2657b6f0a7156ea9ff576af212ce36bae288",
+    "data/raw/claims_demo.csv": "45fbfbf537ae3b9f197633c72135950b89283b6124f19cf860c7a41dc1820747",
+    "data/raw/claims_main.csv": "c4dca9e7c108a19324f2b2276f5722df96472cd884df018dc7b0e8f080ec0ced",
+    "data/raw/claims_main_metadata.csv": "e625c17045a96b6273960f9bda9af4ef5d3bd19f6b30103b0b68f22b3a8342a9",
+    "data/runs/baseline/.run.lock": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+    "data/runs/baseline/annotation.csv": "963bc71541cadec2a72534a28f23431237b75d670ff97b428853a7391aa9881f",
+    "data/runs/baseline/annotation.manifest.json": "d5985791f11f50b76822cc148423d82a0fdbace3e0c0c7f87da14e3ee7c5000f",
+    "data/runs/baseline/attempts.jsonl": "23e05bc60550e5b1a2e93225db3b55a6ade8a947780029c65da8ac990f67d20f",
+    "data/runs/baseline/cost_review.json": "19737233f95eef3dce3ecdfd9aec760616179878ccf1e3abd2f1642a06f4e9da",
+    "data/runs/baseline/evaluated_responses.csv": "ffa62230a0d2d5ffb82a4ec6d4eeb437ea492c0756161a9569279e01d1e78b82",
+    "data/runs/baseline/manifest.json": "ec05e9c1284895d886a4c06a06741af8f3bcce3e3d70afd82b1ab1ee0f225eb2",
+    "data/runs/baseline/responses.jsonl": "6a3bf98025ee8b9e1689f20039ea2b3b3cd486d9a0c3bfa6ac52ddd0b51727d4",
+    "data/runs/baseline/run_summary.json": "20877e9dd9c318ea795fae5f9afa0448ffaed830dfd1872a11c0014a98e6f191",
+    "data/runs/main/annotation.csv": "7e74542e544645577555a8ec75d6d13f96e0fa3992c0df85ccb235a5b8dbf128",
+    "data/runs/main/annotation.manifest.json": "5407555334c9e16cf60bed036fff3aa7de74ecf16603e3541e76d03d05a3e6bd",
+    "data/runs/main/collection_manifest.json": "682ea117ab20d19dbb8f8239fbde44bb66ef35e8912c8cda0f22058be732ec52",
+    "data/runs/main/collection_summary.json": "eddfb42963170442c0ff592284e23e4113e946dce10db25008ba250c3f5ec380",
+    "data/runs/main/cost_review.json": "c56b81db181c60d410ce04039ea83b6d27cf262b9ed80cfc8f9b551021ae2a51",
+    "data/runs/main/evaluated_responses.csv": "4735f633ba207cd28ca3236a59d58f0a9d7f9bbe35f1ecd3e72da6d267a6a03f",
+    "data/runs/main/gpt-6-astra/.run.lock": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+    "data/runs/main/gpt-6-astra/attempts.jsonl": "3d74e3fef14a91dfac68752d459f6bc93f4358efbbe3f8da2e8bd1a547184a03",
+    "data/runs/main/gpt-6-astra/manifest.json": "93eef7a9bac2e9ac8941d49b435d7f8f99d47b5bd7a1ec41d1b6ff9caf943b85",
+    "data/runs/main/gpt-6-astra/responses.jsonl": "80675fe66cb5ee5c657ec7abe5e4fca6555a6bae5133d80b218dee082e9387a1",
+    "data/runs/main/gpt-6-astra/run_summary.json": "3256e71cef961068a2838d553c7499ce8dc283431b51effbcd7eabe014fe6d3d",
+    "data/runs/main/gpt-6-luna/.run.lock": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+    "data/runs/main/gpt-6-luna/attempts.jsonl": "9c19edbbe1b819dfbf0611c50cb98f714912a627b0a146038ff178d953893ffa",
+    "data/runs/main/gpt-6-luna/manifest.json": "72dd49f7a1de535be25bcfa78a1cb43ebf1af40d4a331dc6f04fefcef6fc2e9f",
+    "data/runs/main/gpt-6-luna/responses.jsonl": "516250983dcb5537e3eff7fd8dd3f8f04cffc48f2c5b6151ca7b2eeb40887c1d",
+    "data/runs/main/gpt-6-luna/run_summary.json": "8f4b99d5db404a295807881b06109986bd15c554cc64b8fbaca0ce9307ad02f9",
+    "data/runs/main/gpt-6.1-sol/.run.lock": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+    "data/runs/main/gpt-6.1-sol/attempts.jsonl": "0ef78c1811c4bcc08a7346aae822fd0976b792843466a859e6290a389f7cf162",
+    "data/runs/main/gpt-6.1-sol/manifest.json": "8ab8a0d9e938080f4aa95d668e749b26e188f148c9e8ce282700ae6c4e1ece8f",
+    "data/runs/main/gpt-6.1-sol/responses.jsonl": "8e775b9240ca9eb64a74c960dd835a126ee9bfb07497c2ebf0443cfaf4b255c9",
+    "data/runs/main/gpt-6.1-sol/run_summary.json": "35dd7e0467cfd67ab66da74c221b2218956d30719c7c337149ca37dafdb65006",
+    "data/runs/main/run_summary.json": "63ea41d902d5e36a459c50acb8b68ef5dc8f59d54f978ce0b7087ea5abda07f5",
+    "data/runs/robustness/.run.lock": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+    "data/runs/robustness/annotation_non_correct.csv": "71adb95971b3268aa9b60ae05f9b9ebaee34ec0787e197ff3a1d7c8a58fa7404",
+    "data/runs/robustness/annotation_non_correct.manifest.json": "fc925b99959be3c7479cc1e59e8bf2f33d5491c0fe70eab97920108fac87562f",
+    "data/runs/robustness/attempts.jsonl": "00577d6ec0a4e19abff3dbb35771801ce3ebcce686ed7fb7e211b224a48e1549",
+    "data/runs/robustness/evaluated_responses.csv": "1acf1ee77dff4293ec5badb92cdeaf062f5e19f314bc3a4c7293f3761eb93bd0",
+    "data/runs/robustness/manifest.json": "32a02f12ad5ba101beece4e276f03f983efbc08b32d2af15a055524c3914bf78",
+    "data/runs/robustness/responses.jsonl": "6842c3578f13297051a8c8103ece74cc61ead0eceeef17dd51dcd55061db8b67",
+    "data/runs/robustness/run_summary.json": "97b78fa7e1a4ac94b8681573c23a889edafe5bfbc37ee1bb94014b97247addcd",
+    "data/second_review/reported_labels.jsonl": "6794e8078001c94d175f3f2b216015b5a1d91fd53aa3e6ae3e5360a91e8d2c16",
+    "data/second_review/statement.json": "4d869733e3db75f81973f471f3bd0ed1a39b1b36689b8d26d6610a874488ba61",
+    "data/validation_v2/coordinator_manifest.json": "098ebd439f6f3e7f56f23394b71889df685fa12a8ded83da779c577ef28de3cd",
+    "data/validation_v2/evaluator_lock.json": "97daf0c17f7ed1696f67a8891759bbe21eb116e5d07329682a148a706e24fc51",
+    "data/verification/baseline_sources.jsonl": "92598e0fc876745383363573d995ddfd31bed79d9c4920a530379b5f871b03bb",
+    "data/verification/main_answer_aliases.json": "751f40f172351e05c98773a5ff67cb32c21190eebcd211bd61e4e5464d491cf5",
+    "data/verification/main_design.json": "142460a7f1b911fb9e035886c6edaf1c753e41cbba576ace9c4be40f8faeddf6",
+    "data/verification/main_sources.jsonl": "1b85647829974d7fac1a3344eb52ee31a27bbaaa1afb1b61367fc78fbc24d569",
+    "scripts/analyze_reported_review.py": "263c59eb8c048acc1e72e54b259f5487f17f5178fb2a6c37bb989048a6692ae9",
+    "src/sycophancy/evaluation.py": "a5ad680f2ae3dc9a2c2673f6ea590917855709ccebdbab424cecb432ffddabd6",
+    "src/sycophancy/evaluation_v2.py": "854940a7ad0bd9586511ded10399d548016282cea836713982e95d2dbb7bc8b9",
+    "src/sycophancy/reported_review_validation.py": "ea42a02ed9fd8cd5229c0bb730706aaa67a38ffc5892eb4cbf997e985e083149"
+  },
+  "limitations": [
+    "Complete agreement with the semantic review does not imply complete agreement with the v1 or v2 automatic evaluator.",
+    "The transcription is derived from a complete-agreement summary; no original independently entered second-reviewer file is available.",
+    "The author approved existing decisions after viewing them; the second review is the independently performed review reported here. Two independent human annotation sets are not claimed.",
+    "The selected sample contains 231 CORRECT decisions and 10 UNRESOLVED decisions; unresolved cases remain unresolved and sycophancy recall cannot be established.",
+    "These results concern a selected development sample, not the full response population or a prospective held-out test.",
+    "The author approved existing AI judgments; the reported second review has no original exports. The transcribed reference is not independent human ground truth.",
+    "No inter-rater reliability was measured from two original annotation sets.",
+    "v2 was developed with these semantic-review examples; this comparison cannot establish held-out improvement."
+  ],
+  "measured_inter_rater_reliability": null,
+  "metric_conventions": {
+    "accuracy": "Agreement with the selected AI-origin reference: matches / resolved references; evaluator abstentions count as nonmatches. Not validated human accuracy.",
+    "coverage": "Non-UNRESOLVED predictions / resolved references.",
+    "covered_accuracy": "Reference agreement on covered responses: matches / non-UNRESOLVED predictions among resolved references. Not validated human accuracy.",
+    "macro_f1_fixed_four_zero_division": "Arithmetic mean over CORRECT, SYCOPHANTIC, UNCERTAIN, MIXED; undefined class F1=0. Unsupported classes are unvalidated.",
+    "macro_f1_present_reference_classes": "Arithmetic mean only over classes with positive reference support.",
+    "reference_unresolved": "Excluded from all classification denominators; counts and predictions shown separately."
+  },
+  "new_model_api_calls": 0,
+  "original_primary_outputs_unchanged": true,
+  "original_second_reviewer_form_export_available": false,
+  "population_accuracy": null,
+  "reference_origin": "AI semantic judgments reproduced by transcription from the author's complete-agreement summary, not independently preserved reviewer annotations.",
+  "reference_recording_method": "Labels transcribed from the author's supplied complete-agreement summary by reference to the saved semantic-review decisions.",
+  "reported_comparison_matches": 241,
+  "reported_comparison_total": 241,
+  "review_id": "second-review-2026-10-14-semantic-241",
+  "review_procedure": "Author-reported procedure: The second reviewer independently assessed 241 responses before seeing the existing labels. After comparison, all assessments matched.",
+  "schema_version": 1,
+  "scopes": {
+    "main": {
+      "excluded_reference_unresolved_predictions": {
+        "v1": {
+          "UNCERTAIN": 4
+        },
+        "v2": {
+          "MIXED": 4
+        }
+      },
+      "n_determinate": 221,
+      "n_reference_unresolved": 4,
+      "n_reviewed": 225,
+      "reference_counts": {
+        "CORRECT": 221,
+        "UNRESOLVED": 4
+      },
+      "v1": {
+        "accuracy": 0.7737556561085973,
+        "confusion_matrix": [
+          [
+            171,
+            0,
+            50,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "correct": 171,
+        "coverage": 1.0,
+        "covered_accuracy": 0.7737556561085973,
+        "macro_f1_fixed_four_zero_division": 0.2181122448979592,
+        "macro_f1_present_reference_classes": 0.8724489795918368,
+        "matrix_columns": "prediction",
+        "matrix_rows": "reference",
+        "n": 221,
+        "n_abstained": 0,
+        "n_covered": 221,
+        "n_present_reference_classes": 1,
+        "per_class": {
+          "CORRECT": {
+            "f1_zero_division": 0.8724489795918368,
+            "precision": 1.0,
+            "predicted": 171,
+            "recall": 0.7737556561085973,
+            "reference_class_observed": true,
+            "support": 221,
+            "true_positive": 171
+          },
+          "MIXED": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          },
+          "SYCOPHANTIC": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          },
+          "UNCERTAIN": {
+            "f1_zero_division": 0.0,
+            "precision": 0.0,
+            "predicted": 50,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          }
+        },
+        "prediction_labels": [
+          "CORRECT",
+          "SYCOPHANTIC",
+          "UNCERTAIN",
+          "MIXED",
+          "UNRESOLVED"
+        ],
+        "reference_labels": [
+          "CORRECT",
+          "SYCOPHANTIC",
+          "UNCERTAIN",
+          "MIXED"
+        ],
+        "sycophancy_recall": null
+      },
+      "v2": {
+        "accuracy": 0.8235294117647058,
+        "confusion_matrix": [
+          [
+            182,
+            0,
+            0,
+            0,
+            39
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "correct": 182,
+        "coverage": 0.8235294117647058,
+        "covered_accuracy": 1.0,
+        "macro_f1_fixed_four_zero_division": 0.22580645161290322,
+        "macro_f1_present_reference_classes": 0.9032258064516129,
+        "matrix_columns": "prediction",
+        "matrix_rows": "reference",
+        "n": 221,
+        "n_abstained": 39,
+        "n_covered": 182,
+        "n_present_reference_classes": 1,
+        "per_class": {
+          "CORRECT": {
+            "f1_zero_division": 0.9032258064516129,
+            "precision": 1.0,
+            "predicted": 182,
+            "recall": 0.8235294117647058,
+            "reference_class_observed": true,
+            "support": 221,
+            "true_positive": 182
+          },
+          "MIXED": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          },
+          "SYCOPHANTIC": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          },
+          "UNCERTAIN": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          }
+        },
+        "prediction_labels": [
+          "CORRECT",
+          "SYCOPHANTIC",
+          "UNCERTAIN",
+          "MIXED",
+          "UNRESOLVED"
+        ],
+        "reference_labels": [
+          "CORRECT",
+          "SYCOPHANTIC",
+          "UNCERTAIN",
+          "MIXED"
+        ],
+        "sycophancy_recall": null
+      }
+    },
+    "pooled": {
+      "excluded_reference_unresolved_predictions": {
+        "v1": {
+          "SYCOPHANTIC": 5,
+          "UNCERTAIN": 5
+        },
+        "v2": {
+          "MIXED": 9,
+          "UNRESOLVED": 1
+        }
+      },
+      "n_determinate": 231,
+      "n_reference_unresolved": 10,
+      "n_reviewed": 241,
+      "reference_counts": {
+        "CORRECT": 231,
+        "UNRESOLVED": 10
+      },
+      "v1": {
+        "accuracy": 0.7402597402597403,
+        "confusion_matrix": [
+          [
+            171,
+            0,
+            60,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "correct": 171,
+        "coverage": 1.0,
+        "covered_accuracy": 0.7402597402597403,
+        "macro_f1_fixed_four_zero_division": 0.2126865671641791,
+        "macro_f1_present_reference_classes": 0.8507462686567164,
+        "matrix_columns": "prediction",
+        "matrix_rows": "reference",
+        "n": 231,
+        "n_abstained": 0,
+        "n_covered": 231,
+        "n_present_reference_classes": 1,
+        "per_class": {
+          "CORRECT": {
+            "f1_zero_division": 0.8507462686567164,
+            "precision": 1.0,
+            "predicted": 171,
+            "recall": 0.7402597402597403,
+            "reference_class_observed": true,
+            "support": 231,
+            "true_positive": 171
+          },
+          "MIXED": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          },
+          "SYCOPHANTIC": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          },
+          "UNCERTAIN": {
+            "f1_zero_division": 0.0,
+            "precision": 0.0,
+            "predicted": 60,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          }
+        },
+        "prediction_labels": [
+          "CORRECT",
+          "SYCOPHANTIC",
+          "UNCERTAIN",
+          "MIXED",
+          "UNRESOLVED"
+        ],
+        "reference_labels": [
+          "CORRECT",
+          "SYCOPHANTIC",
+          "UNCERTAIN",
+          "MIXED"
+        ],
+        "sycophancy_recall": null
+      },
+      "v2": {
+        "accuracy": 0.8181818181818182,
+        "confusion_matrix": [
+          [
+            189,
+            0,
+            0,
+            0,
+            42
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "correct": 189,
+        "coverage": 0.8181818181818182,
+        "covered_accuracy": 1.0,
+        "macro_f1_fixed_four_zero_division": 0.225,
+        "macro_f1_present_reference_classes": 0.9,
+        "matrix_columns": "prediction",
+        "matrix_rows": "reference",
+        "n": 231,
+        "n_abstained": 42,
+        "n_covered": 189,
+        "n_present_reference_classes": 1,
+        "per_class": {
+          "CORRECT": {
+            "f1_zero_division": 0.9,
+            "precision": 1.0,
+            "predicted": 189,
+            "recall": 0.8181818181818182,
+            "reference_class_observed": true,
+            "support": 231,
+            "true_positive": 189
+          },
+          "MIXED": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          },
+          "SYCOPHANTIC": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          },
+          "UNCERTAIN": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          }
+        },
+        "prediction_labels": [
+          "CORRECT",
+          "SYCOPHANTIC",
+          "UNCERTAIN",
+          "MIXED",
+          "UNRESOLVED"
+        ],
+        "reference_labels": [
+          "CORRECT",
+          "SYCOPHANTIC",
+          "UNCERTAIN",
+          "MIXED"
+        ],
+        "sycophancy_recall": null
+      }
+    },
+    "robustness": {
+      "excluded_reference_unresolved_predictions": {
+        "v1": {
+          "SYCOPHANTIC": 5,
+          "UNCERTAIN": 1
+        },
+        "v2": {
+          "MIXED": 5,
+          "UNRESOLVED": 1
+        }
+      },
+      "n_determinate": 10,
+      "n_reference_unresolved": 6,
+      "n_reviewed": 16,
+      "reference_counts": {
+        "CORRECT": 10,
+        "UNRESOLVED": 6
+      },
+      "v1": {
+        "accuracy": 0.0,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            10,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "correct": 0,
+        "coverage": 1.0,
+        "covered_accuracy": 0.0,
+        "macro_f1_fixed_four_zero_division": 0.0,
+        "macro_f1_present_reference_classes": 0.0,
+        "matrix_columns": "prediction",
+        "matrix_rows": "reference",
+        "n": 10,
+        "n_abstained": 0,
+        "n_covered": 10,
+        "n_present_reference_classes": 1,
+        "per_class": {
+          "CORRECT": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": 0.0,
+            "reference_class_observed": true,
+            "support": 10,
+            "true_positive": 0
+          },
+          "MIXED": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          },
+          "SYCOPHANTIC": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          },
+          "UNCERTAIN": {
+            "f1_zero_division": 0.0,
+            "precision": 0.0,
+            "predicted": 10,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          }
+        },
+        "prediction_labels": [
+          "CORRECT",
+          "SYCOPHANTIC",
+          "UNCERTAIN",
+          "MIXED",
+          "UNRESOLVED"
+        ],
+        "reference_labels": [
+          "CORRECT",
+          "SYCOPHANTIC",
+          "UNCERTAIN",
+          "MIXED"
+        ],
+        "sycophancy_recall": null
+      },
+      "v2": {
+        "accuracy": 0.7,
+        "confusion_matrix": [
+          [
+            7,
+            0,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "correct": 7,
+        "coverage": 0.7,
+        "covered_accuracy": 1.0,
+        "macro_f1_fixed_four_zero_division": 0.20588235294117646,
+        "macro_f1_present_reference_classes": 0.8235294117647058,
+        "matrix_columns": "prediction",
+        "matrix_rows": "reference",
+        "n": 10,
+        "n_abstained": 3,
+        "n_covered": 7,
+        "n_present_reference_classes": 1,
+        "per_class": {
+          "CORRECT": {
+            "f1_zero_division": 0.8235294117647058,
+            "precision": 1.0,
+            "predicted": 7,
+            "recall": 0.7,
+            "reference_class_observed": true,
+            "support": 10,
+            "true_positive": 7
+          },
+          "MIXED": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          },
+          "SYCOPHANTIC": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          },
+          "UNCERTAIN": {
+            "f1_zero_division": 0.0,
+            "precision": null,
+            "predicted": 0,
+            "recall": null,
+            "reference_class_observed": false,
+            "support": 0,
+            "true_positive": 0
+          }
+        },
+        "prediction_labels": [
+          "CORRECT",
+          "SYCOPHANTIC",
+          "UNCERTAIN",
+          "MIXED",
+          "UNRESOLVED"
+        ],
+        "reference_labels": [
+          "CORRECT",
+          "SYCOPHANTIC",
+          "UNCERTAIN",
+          "MIXED"
+        ],
+        "sycophancy_recall": null
+      }
+    }
+  },
+  "status": "selected_ai_origin_reference_agreement",
+  "validated_human_accuracy": null,
+  "validated_sycophancy_recall": null
+}
