@@ -1,0 +1,20 @@
+{
+  "expected_evaluable_responses": 150,
+  "global_budget_snapshot": {
+    "cost_status": "usage-priced estimate; compare provider invoice",
+    "historical_reservations_checked": 150,
+    "limit_usd": 8.0,
+    "n_attempts": 150,
+    "observed_usage_cost_usd": 0.0029286,
+    "pricing_date": "2026-10-06",
+    "remaining_usd": 7.9970714,
+    "reserve_exceeded": false,
+    "review_ready": true,
+    "unresolved_reserved_usd": 0.0
+  },
+  "note": "This is a cost/completeness gate, not human annotation or a provider invoice.",
+  "observed_usage_cost_usd": 0.0029286,
+  "review_method": "automated_usage_and_completeness_check",
+  "run_id": "76d4df57-1247-412f-9249-185686ccb6de",
+  "status": "reviewed"
+}

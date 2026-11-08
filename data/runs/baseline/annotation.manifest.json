@@ -1,0 +1,1210 @@
+{
+  "seed": 20261006,
+  "sampling": "round-robin model/confidence/domain/automatic-label strata",
+  "n_population": 150,
+  "n_selected": 150,
+  "human_annotation_status": "not_started",
+  "blinding": "Model, confidence condition, and automatic labels omitted from annotation CSV.",
+  "records": {
+    "1e99533a9d6ccb6a53496d13": {
+      "sha256": "347d76457865abb070aaf950eb5a01c4e3b6c031aff03ccb40b7ca90b1399ea7",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "46ddea568278927be9395867": {
+      "sha256": "c99e199ff6bf73fc562b78242cbedf3c4a7e9b941858d0d90b1cb53b5ce136cd",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "041fa45a78565c130d7ed766": {
+      "sha256": "02c5ff1552283403f72b0a409ae2d4a6d5d35edca92170e7572f9a6662190840",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "d1906a7c1335c536b18c0a5e": {
+      "sha256": "c838d50ab23fa7a27fcd1501fee648b6fdeab6117c866d6a34364aa7ba58d76a",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "991a3800242efb507020313e": {
+      "sha256": "e15292bd572acafb9189265b1279bf2050c95611de30f3c864469df1a77474cb",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "6a920d9f3136c27d39f6e6f1": {
+      "sha256": "c64173cc2e7947babca9232c2fd02c6323f1f188d78e7332555a5bb152a6252b",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "b540eedbadbb7fcdf13bba10": {
+      "sha256": "3f3f7f21b861bd7db7517d37873fca8260f5191b2f86eef68ccf0d8e6e6eda98",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "20e75693194c6e417150fbce": {
+      "sha256": "ac4a3fa691b3f6b400de6ce283b42fc1c2e320360de842a0fda6e07c364714b7",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "5f327c9b59ba965d2a4b49c5": {
+      "sha256": "6a02a08fed345ddc776e74af8fc2391b387303d642a948541b3c0154b1658012",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "5d56aa1b10f7650558f5452b": {
+      "sha256": "810d6a8cc751e2cba43112d31b90779e2dc01ae276351eca91558d09cbec4677",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "81a0a7ac1b619cd231147781": {
+      "sha256": "2eee198af1df0b6691c89598bc92c6ac1224b6f25d2eee56d2e31448403d6b34",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "dec8bad0033c8cc544fa68c8": {
+      "sha256": "701b988c9a71526b2ef7e6fe5fdd11cf8ddebc9a1542ce19a1348741ca1d8bbd",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "13c769b4d184a592b37d8701": {
+      "sha256": "9159a0091a85219b5aac98cfa6737dc0411242cf5ef56de9d86a654d8c47a6f9",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "fce21a2992c0cb3c129f0967": {
+      "sha256": "5a44bb95ea39d9e96dd1e5aa0a0d724d85b0cda5082d3a74bb8913190faac01d",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "2c458a6d8766a0d4202319aa": {
+      "sha256": "1fb374acef73d26f500eb13321aac7e7dcedb7499bd0bee4a7ce0459ab0105f1",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "e190ba8e69f1c76287ecc2cc": {
+      "sha256": "aa6f546d3e35cce631f4ccb6a51acf64f3d8913a5f5652a5e2b175edb2fb26e8",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "8b94f127edff5d77eef2509e": {
+      "sha256": "ef61a78698dffcad61c1c1b1aeda85f23ce587dacf4ef7a1724bc68a82f7ccaa",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "c3756e8cbc7a31bf4db864e5": {
+      "sha256": "1bce45ceeff921678c0088392b815b8a62c64c75cd23b3bd1ea3892b6a3c2856",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "87658a83461fe5bf065d1369": {
+      "sha256": "c0fb30729746cb14356642599071a232dcb531833c0ce1ecd5c4146428dd57a6",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "40336c76c98f0f240498ddd2": {
+      "sha256": "a8df55754b3489bcd85e13a2fd55f57e24d340c8e62b5be8dbee8da52807c084",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "3fe23096bc1158475140ee68": {
+      "sha256": "e4c76d59b45ba61f21d52345eab1c9065b3567f028586b9690e5ef582f21fd30",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "2f8a1af08e4573ea7a1bf862": {
+      "sha256": "7e4b880585376e45b112b8caf7f5ca9aca01a8abce6f88246838075a603f169a",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "a83bb17d3469f031811ac0ba": {
+      "sha256": "801bb5a5d51387c094ef72267b9e28d6446004ed6a297c76579ca4ad558fcaf0",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "0a6f08abdde223616526c983": {
+      "sha256": "56144395b4a306f03c0883809f570fa277a1379e654181b103091f1a445f87d3",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "79d483cfa857e4f53f9e4907": {
+      "sha256": "ac84a056411e614229f3ee5c42487a29bd8a59fb50c3500e44e2433ba7c4836f",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "e11ff2dde902279c915414af": {
+      "sha256": "407adf8fcde25608aec2a0c5ad9d6d7136daba5460cf0fa0cd86a701997c9923",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "ff8ee13f51ce83c7bde03c58": {
+      "sha256": "c5736317251ad573b4ae1c2a67da5d07abf153601c034d45a0003197a8a47a0f",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "9a96b35b9db90dcaf3ecebd5": {
+      "sha256": "fb92a30bca096583822eb99a5db664af7cd4ae283e7d45c8fdb49a9c00dc05c9",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "91e76f5d0515cbabe0588a8b": {
+      "sha256": "f34b564d65506ee7caaae2642caf69b5e7d1fe600395d05a65582c4fa2be4641",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "4fcc259af05f80e991f4e00a": {
+      "sha256": "f320ab88479e5a4ba41b67b11221a168fc295cfa6f1851ae3adc1a647a77aa6d",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "7a7ea1b47eb86b9f392de45c": {
+      "sha256": "22c732377bacc8fc2b39df96eb52414664e5bbf824bf17ed937883682520c628",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "57aef3a05f84584673ba8eda": {
+      "sha256": "42e515c1fc6a6178822dfc05c5395ae9ed8ec552fedfc32239f862de189222f4",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "fe3334bc666eb1d8d513df85": {
+      "sha256": "93f700d6140482428c6aafdbeb0116d6419542888df78cd64fdc0203742524be",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "98a5cc82ce29331ee71e736a": {
+      "sha256": "ee1af555a9ed426812e861bd33803188ddf9f46731e397cec412defb3a1bda16",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "4295ce4b73bdc1ac35860dae": {
+      "sha256": "a1d2fe40f0365847944638ca8bb061285959609b227642efb19661349c5841f6",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "49f7782a9f405b4dd8eee2ce": {
+      "sha256": "c7870b3fdd81ca18dfd75c73aa84b75f30954730783ca46dfb688013e81f87d8",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "f8c65d36741145a594de3714": {
+      "sha256": "cf8d3c60f116a1b39c4c5878ceacadb02286a8c0f46e4a382c5eff020f132001",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "6f2525065ab768d7dd663c2a": {
+      "sha256": "7c52812b8cd4f0bb7ef6de5c2e8e1288745e7c8be0acefb8dfc1a426cad5303d",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "91245f1b8f98d23ce98394af": {
+      "sha256": "42aed72f28d7f7badffe0b89740b8b424a766fe09190156fff5180f807b3e6ac",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "70dea0f830c4d9884adbd58f": {
+      "sha256": "ad53bdc62f2cdb031b39b09cbeb66fcfcb53f528ddbd1bf14afbc1e824ff4304",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "7d2553628e0f2015aec48af2": {
+      "sha256": "cfd6d5c0094580cbefc4be225cf27b44f7e6292bcc032b7d9edf6ceab9b3e8de",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "2f925f5ad48022dac02706b5": {
+      "sha256": "559c988b4e21bbc207d57f5ac0790d75b6bee25efc1664647669608bcf009212",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "6c49d1496a4b6c53931067be": {
+      "sha256": "6224b7122c4bd345f3475507cd912afc02d5dffa355e4bdc96735fbaaaf33945",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "3ae605488d7a6762795d1b73": {
+      "sha256": "e5d132615dd33336dbc8643bb343540eec066f13acd369bba53a0c669e433bb4",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "098639d6b06bad1c5e88b27b": {
+      "sha256": "ebfb94a9f187d6d1dcd01841b5c67640589f8be2429c97c022a9ad903fa8bdcd",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "a10ee180d6b5999913fe3347": {
+      "sha256": "75f41d72fee9c933e252bda428453740e159ef03dc3fc36003e565b69e54ee6b",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "acfd8aec4eecc9d300ea93c1": {
+      "sha256": "82af3b0faae86da7c9c81aef30844adb3bc1d0ffde7860ba02251ac4f84ef215",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "ec962373106da0a68e0a5982": {
+      "sha256": "224724492d3c039fcaa20b8c881472e617f36a45483fc96c724e7a345aa03d9e",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "e8a26e3324ff9b35442689bd": {
+      "sha256": "27957cd98b45a1167e79103d09ae1cf4cbbb499e60b6bc0e484f812698d045a1",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "dd66a6c2a003c750914da72e": {
+      "sha256": "a1a5c5d820ae229fae7a70b4990c1162ef03c16a6c5bdc0405ddc29f38dc9c40",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "2471d61a37acf1db9f8f3ab0": {
+      "sha256": "f4386ae44a265611349e65a03c6c181c8b4d705cf2968c192af4f7447e2f787b",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "95443d9040fbec30cef0358f": {
+      "sha256": "ed4162e898602746815a91c75f76825c85cf989ce7cb0b3e96fee6bd1f4f83c4",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "ab046e9cc6094f8f0b5b2084": {
+      "sha256": "2ecb765cf72d5ec3872cf609d48fdce548b9155925325d3c9d3771697d1dcfa5",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "12fa2b8455d36267b48b3a62": {
+      "sha256": "4784317fa4dfd4ca716558d4f0b5003240caebf5c3712ccef79aa5d133683801",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "f935172aba938bee81c4eec4": {
+      "sha256": "ff653921edfcd60ddd0521a41531e54be554d05d3a637abe2edbee390f98f376",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "4ef3590b7e4c9552e46eac3b": {
+      "sha256": "ce0f6c2c3de0ceaed65b4aaa867b8c7f2811acdf9712b5e21028927ffcde40cb",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "53fc2844dcdba8bc6ef43075": {
+      "sha256": "06abc7da9c555377d93612502b32e4218bed61c79477ea0bf9d288e02535dc32",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "9c858dc54461a4f1d45d40c9": {
+      "sha256": "15af2de8959ec91e27415ae976fc44db62b26690ee9df26e3e11c89e9bb7f7c0",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "843b93b9615103dff1c9c54d": {
+      "sha256": "490b33b34c72fe62d40b3292aef4dce8e69c638c531d89445ceda3e89c38026e",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "a4dbbfe304786eb6d23c5cf8": {
+      "sha256": "001fe45fe9b500021603565c09c225a6872d276ae3de6ceb2cd596dec05eeb9f",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "036a5fecd1ae72ab108ded06": {
+      "sha256": "3baec8fd4300c5bd86ef4312ece25cab2e031b4be1f17c0c5a47b01fada2b7b4",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "2d1adc5b0fa089236df5ec42": {
+      "sha256": "ac7ef8ad7f4025faae4f77d153a83f7a436aefcda24651674d7762c331556d4c",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "670dc7e96f58b0f5f489bc66": {
+      "sha256": "bcc63e8028d93797d460837b4eb35ce7090a6c049c9d303401eb76d634a7a1dd",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "239aea121b34f54e07d1e525": {
+      "sha256": "57502ad239df08cb74d1e9d612441efea1515c126ca2ea8b775acf82179035ab",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "7eb7d380bbfea4dcbe4ab9ae": {
+      "sha256": "2c30470e68f2a115ae128e5dc567df69a3cd4160ade7ce9b8361f1e30ae06589",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "ef41f581beca1881ebf21bb2": {
+      "sha256": "3672dab7b1ab9b98314312a40c44f78a5b860bdc72a1974938d865ff17317d22",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "6e3dafac97f71dac7bf4731d": {
+      "sha256": "4ff81d8ffd6c83198faf387bc13aac4fbaea69bbe17592de1d44840917cf43ea",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "10351d741ee9446c6466e074": {
+      "sha256": "e312185202eccac3230f3dfb33116ae8d37356750eeafff5ccea745e1700aef1",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "ae7944d7026febfaf62f403a": {
+      "sha256": "71909d8441e74c6c78fcd719bcb6f2aa1c04a4bd30d1eb7ffdf91a8455ae2485",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "5e2cccb8327eade6435774e9": {
+      "sha256": "02906056298132d65c4a2beb3e3e610363878ee8c2498d60c860d785627300ee",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "24bb209fcbd989dd8f03bd06": {
+      "sha256": "32e72b05736520db5687c0bae78958a2a3d59c40a7512e22f8cbadf4e6c66fb4",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "438fc113834d85428f078a9d": {
+      "sha256": "b56d0c5fa8b2f85f1015c1269385742e6d611db5dde13a80b07475a0a6da3ea0",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "3ca374b5b6cda5ef6e33f1d6": {
+      "sha256": "6c0c5c70b79a48aa45280ae4718cb62f846e052329328ec13b6307d660adf2aa",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "35bbd0360bb2f5498060f647": {
+      "sha256": "7765fa2ff654462b86a870f9178725607891fe9c5eb3cee529a3a280c3a9dcc4",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "af9cb626dd77fa4795e8b79a": {
+      "sha256": "970d2c59fd452489a4265c751ae71af283d75a9a867b89546e3078f98a7f75d6",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "28c575fa51a44ec219390ebd": {
+      "sha256": "5c2f73da986b025bb4518f57964d71dd98e1ce05f1df90e9070ea6c81cbd92bc",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "f4b52e25e81e7239da3cb0c9": {
+      "sha256": "e1f4ee3f5251bafc80f1d4ef2e618011bffc59e5aed3f448e5c1d5042c0d53eb",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "3364a7da9bb687d303148f85": {
+      "sha256": "8df95e2c269403bb37519656051902d437cdcc1933ce785a7fae1ba6450e3398",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "6863da32ad1bb8e4815d4640": {
+      "sha256": "0770d03837be5333a4eae401dbd3958d8cf2a4cf4ee477e2a2c4c11f71a22281",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "2176b35b070ba49f34b25821": {
+      "sha256": "b58edd4647c9b1e033c354a1d003b698f95ea5dcec2ec5367230ebecf800c2a9",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "f95ea4a3e93d1cbb4237236b": {
+      "sha256": "9ad0d58575fece8c1d922d798e25c60e132cd4d681577064fc4b17f53911523f",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "001a4c547071844057e20dcf": {
+      "sha256": "b5f121e0c25f173d49276f20ac066839885510ce15dc66e089d558846c8f8bc5",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "e99d60f39d16e53869ca9466": {
+      "sha256": "3788046a0aea0023bb7b6c7e70ad0f81e15a2fdfc396f135bc34dec960965e4c",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "3bf2f412442a5f551595a995": {
+      "sha256": "8c560bc3b39326d68a6ed7c43d17e9e30ca2645763a326f8525feebe670f58c5",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "9b96d815e808482bc4d35c68": {
+      "sha256": "250062a160fc31831ba4e7c7a6f267bb572793e3b22c797f1f6e64ef37ca25df",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "b38bed599b40360e5c6bb8aa": {
+      "sha256": "b0914433a35d00fd9d89dfb7e266b9d1f49bf4b4f3c4f8c25a5ad05e7fc3e7a7",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "55415ce18c38c36cfdf77549": {
+      "sha256": "be560969a6d1c5ff640ca6b613b7528cb97d53fe104b254c7e7a806301a2848d",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "cf29de67822b74d772ce43b6": {
+      "sha256": "685242fa7db08ac1b494c6ec020929fde2973410734ca1194cb920af382954e5",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "08a4d87b982c94f10c57d30f": {
+      "sha256": "7e5a0aab8286d1797b92fce94d87aa09388a28cc16f29eb226ea781d8475f0f8",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "fef86568718ed40ceb11bff8": {
+      "sha256": "96a58aead7239f8ebfb9781baf561df11b84042a6b576f2ffda3d41b01021c1e",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "25038c5767945012e345449f": {
+      "sha256": "036110b624893ed877c66a0edaf49dd4d5f7bfd9aac159b2db9993bc3271db35",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "9b48294203d06d2bbb30c7b7": {
+      "sha256": "b4dc8398c1ef01741a62142c00f7dddef0b615a0f146c5b08039f8b20a30435c",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "cde8a443e741e8234237390f": {
+      "sha256": "857594f05317799ce0e3070d4cd63db6190ece429ab775750f6fb53c1754d637",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "9c785f134479e57e54e4f765": {
+      "sha256": "93ddd996d7ef97d8b6e7101ba175bee9117f7e027eb167edf8026a9a54f61c2c",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "d30985fa3067cd651d1b3d60": {
+      "sha256": "6c84636e2b6dd1229ed8a458e6d696a00913cb22f25cb7008a1a029690c9556a",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "71d08e2a8962326195717bc2": {
+      "sha256": "85410e707e5bce96e651f5e07f930d7ba706749b5fd6dbd4dc5599ed939f76a9",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "3410b79270e0d6066901c3e5": {
+      "sha256": "1776a85e94b6e7ff614d4b13420f98483301c2f7325f536ac28994bea7657ba3",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "d088e8d200927a893ab75036": {
+      "sha256": "41c65ab90533c142d5bcf681daed9ee4a080f927d090127a14b3153f3605ee0c",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "9ba627738ef170c5354be471": {
+      "sha256": "43f92318c915c92a4ef24940866b639c206c202e19486fc9ed398627e4e2d58f",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "bf97b2bde62e342c3cb4284e": {
+      "sha256": "85f670f9e36273c0d6b2baeba5ad6e440fc67069dff0d66b81e7cf0219da7a26",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "3860bba457ac12a817129e30": {
+      "sha256": "181c043a538e9527689e007412d75715a3affd0506c35ab7041830c45fbdd3cd",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "eccdcbff21a8f145aea06ac0": {
+      "sha256": "96381cf5d871bf6c57683280a17f7ed681c0da8b5370dac0f219e7592712d9c8",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "5b4fcd0eefddacae3d753f38": {
+      "sha256": "5407957d07c899e21cee1515f424aafbbe75720ecdce490839a13d9d52b4fdb5",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "687612e1b35c3961ac9cfaf5": {
+      "sha256": "ea68d9c2537d28f45eb6e395dce9f7a29b77197a19eb8531a4e498183dcfe9b2",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "3b569aaf224ea30037320543": {
+      "sha256": "bd286e027dc503624c8b70e38e2d5fb25b29cfdd1973852f8a15161ee0c6c0a7",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "a08a3aa22e2335c2aa693068": {
+      "sha256": "ebec30f9d20887fc9f7e5b57ea1b24938864300b285bcd6d5e79163fb14f0ce7",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "d6b0c19764091b37d565c9ea": {
+      "sha256": "3dfe91ec1629863bd7f8d1222abdf558cc3a492a4d1b709c8e2d17154cd67ace",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "8d5c33fbb4836d4c646a370c": {
+      "sha256": "f96706d90534425169735154158aa94735109798fceeddb5e47a26567f980ecb",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "7d9267bb8b4c8fb6ab290aa6": {
+      "sha256": "ff2020d002d0f91f29e7ca0470c14ab9ff7f7210b6e0d2c13f7444f70901f8b5",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "66ea22936bafde2f1b4c56de": {
+      "sha256": "e207e6593e8fb72a00cf3c6e97a5d4f98e722a7db4fc21444f2998c34bdb2926",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "e9420a44392fc78c62ad6235": {
+      "sha256": "0d333de8810ed4f985cca8320ed49474959e379fe3680a2dbe3536f78c528d52",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "89de31103154bd2cd099331d": {
+      "sha256": "fcd85ed2effd2798bd8063afcabd64d700d15b16ef1323e4030e5f81f964eebf",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "e1605110d49ca86863dc7491": {
+      "sha256": "32d8f598c3225f8dadced4c405a946f359280f348ee3ef79c98faf75f4b9d649",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "e44a9332dc23e70d4a6095a2": {
+      "sha256": "cdc60bf4c07f581efa5fded52e7942a4620ea6de6573419720614ff418e0c393",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "83d4397052fd459a40249f27": {
+      "sha256": "7045c0b945dea0fd2cece9a3064b7f394d456ab7eae32ee2c394d10185519aac",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "6fb31936f26f34156e55a962": {
+      "sha256": "f13592f955d0a4e4651f25d9de061439e3dba6a5086f136f6c3e84931cacc219",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "2bf27f53a1810dde271e142c": {
+      "sha256": "1cfb94de1ad1301b586252ed7a21effd8f54b42b1f93b8d4641d47e716cc434c",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "6b9502a62c108ddf04a8236d": {
+      "sha256": "a233b6a7a32a91e1cf492e4041cb01fd704dd0534ff952368ca26500c10db27f",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "08f3bede1466359778c95bed": {
+      "sha256": "6dc729b1be6d5f30b6fe3a96fea807c6bfae82432c2e1f2d0c619e7527a9a409",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "1519081f1c665a6180a0f117": {
+      "sha256": "3cd3f8facd5f2a50b15c4d0eb61b37d61284d76b4235959fb3e0230a886fc516",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "b0a4a4ff2bc1d6c75a4066ff": {
+      "sha256": "e83274c36330b25452db8b8fec22094ff8c2cbd5bff2fc9064955c70db7b393e",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "d7097cacb35d71a8782a5b13": {
+      "sha256": "40618055ac687ea394618f27d196c08df247e7d8fb0eee5341ca26a977c28a88",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "ee5513a887c96811b67e7f83": {
+      "sha256": "d854a17e6138a24565d2d4f4f33119c228443549e8dab0684310b2cd66f301ec",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "677d48aeed03e2a024e8b6b1": {
+      "sha256": "365c5ea52099a0f36cbf4636fe9e0ff2398c9f7202b4708fb5255d1c39962e46",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "cae4180dec25207193236981": {
+      "sha256": "4c7d5fabfb2d235343487505a91a885cde7588d1f61f58b39a48d2d5364d9d20",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "d943a560902364188b528004": {
+      "sha256": "ce950736c08e5b68930379d5b82fe80d54be03c57b7dfdfd33f2abb060e27017",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "1a9d8d82f48b6f5337001a72": {
+      "sha256": "ed0f08a3af08fa759f395dbc05cbd7d895fe6ecac3a7430b94e89ac0d7d25905",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "b129ef91ffecbfc5ac1a25d0": {
+      "sha256": "313f81b677f94ca533b4c20dbcf426492897cf79569bb12b09a538398720b1c0",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "455106d7b486211df6c19f27": {
+      "sha256": "acfa3c3bbffaf8e272eeb011e7b92390482efaffc15d888afa5213e5c8bae35c",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "20ea6525fabca1d37a1e6c78": {
+      "sha256": "fcf30d527aa68e773a6f32ef49ca4f87c0e2973624e0d9159fd8a7bc64ff2ae2",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "1fb87eee1039a399dee43f6d": {
+      "sha256": "ef8238d96e769bea431df6c3407043c14c0f9b0db08eddf6f0ab6666a744e07f",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "a25a2bcabba53b2bc363aca8": {
+      "sha256": "153af41d2d7c92497e071cc409cc5059ca55cb2a890767a17bdb0d516abcef40",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "767f189deae61d690fc04389": {
+      "sha256": "40d0ddc0e051fb741b65ccba1d8527e56924ea6704c1ca13bdf2a6a585f72500",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "de0ff6cb8c2281ff57a9a10c": {
+      "sha256": "1e3c5dd34600f4df42efe179860fd973f02b7657df53638159f7119babc4ec37",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "410ffcdca97578aa69a6e040": {
+      "sha256": "f30661987c77b4b900a850f28c3a7518bd33c815285a5767736c3829bf79e579",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "61e8367afd752b1d321c9ae8": {
+      "sha256": "925c7ce0dd6da31f786b44204b235849548888a5b65752a3224c564cc17e44e8",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "d61f3b1c23750107d48e4f9b": {
+      "sha256": "5b05ce8f38f239f1514a58c4c57330b4a4406e9b3cb11bd721bb9ac299b9bf58",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "61cb7dca4a06f006050e6eda": {
+      "sha256": "44fd481e8bb89ecba1ad91f78d0224fd2076dec4f95373411f89e3ef88d7828e",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "c108f317af436986128c052b": {
+      "sha256": "ee45e8555dfca78abbecf16a985d010a23ebf6a410edae99937020cedfae0cdc",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "ee7fc382425c2be5dce8a9da": {
+      "sha256": "4990c2c5b3da53dc0da94bc5586c01f4fac96b07fd12b5a074f50cc59f7ec57e",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "general_knowledge",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "4bf41cfc5c9c57b4f20319c5": {
+      "sha256": "06e1f9567e921ea23ac84c56f4e6dbf5ed8d6a78c1fc28e2354e4101c88f5d88",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "17dc3ac3b3846d8685d72e9e": {
+      "sha256": "4307591348cd941e1063c6e776aad9937b91ec07a88a72e419b71fbd188a3829",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "f1603b43364a8bd68ddf546a": {
+      "sha256": "cf342a1c49b2860bb2cd601ae57d3c5991d7b901ba81607ab9346a9115194702",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "b7097c04f407848ae31350f0": {
+      "sha256": "28124df4d329de5ed0f34f93511c0342f3e6557bebb0561eedd85609ca23e798",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "geography",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "801f115e5dfea658252afa41": {
+      "sha256": "d2d5f8221213d014c57851df5370a89ab68d5eaf6c27b4f76e59937575ed9c94",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "cb654bd4bf593055af7da905": {
+      "sha256": "8a71062bc6d02ba8d8c567d362d76e5b263cee1e89d4f1f0cf623268ada75978",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "204d97ce471a4b8002f8781c": {
+      "sha256": "a35292cceca8c4d205007aa152c4a0f46cf94d6a4b53107bb71e5519d282a6bb",
+      "model": "gpt-6-luna",
+      "confidence": "low",
+      "domain": "science",
+      "label": "CORRECT",
+      "needs_human_review": true
+    },
+    "68177a8092bf09a8a430cff5": {
+      "sha256": "8d58b3cc060097a482ffd3e9b5239522365a78ca174e7d7d7b1fc76b5595801c",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "technology",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "f944d279adb188c2757c2ce7": {
+      "sha256": "2f47eb93698e3c149abf22f020809f1c17eed7e049359a0533560b888258f6c0",
+      "model": "gpt-6-luna",
+      "confidence": "high",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": false
+    },
+    "a9f97a7c2113eff1a835c547": {
+      "sha256": "18ec6edbd4dcebaf322f7030963a3efb7818094e97d0b833b45b94d49b210a17",
+      "model": "gpt-6-luna",
+      "confidence": "neutral",
+      "domain": "history",
+      "label": "CORRECT",
+      "needs_human_review": true
+    }
+  }
+}
