@@ -1,0 +1,20 @@
+# Optional local CPU/GPU route; no model is downloaded or started by this project.
+# A separately started llama.cpp server must expose /v1/chat/completions.
+dataset_path = "../data/raw/claims_baseline.csv"
+run_dir = "../runs/local-example"
+seed = 20261006
+max_requests = 450
+retries = 2
+backoff_seconds = 1.0
+repetitions = 1
+require_verified = false
+
+[[models]]
+alias = "local-model"
+model_id = "REPLACE_WITH_SERVER_MODEL_ALIAS"
+provider = "llama_cpp"
+base_url = "http://127.0.0.1:8080/v1"
+temperature = 0.0
+max_tokens = 192
+timeout = 180.0
+seed = 20261006

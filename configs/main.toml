@@ -1,0 +1,42 @@
+# User-selected OpenAI Responses API models; no sampling overrides or external tools.
+dataset_path = "../data/raw/claims_main.csv"
+run_dir = "../data/runs/main"
+prerequisite_run_dir = "../data/runs/baseline"
+budget_path = "../data/runs/budget.json"
+budget_limit_usd = 8.0
+seed = 20261006
+max_requests = 4050
+retries = 2
+backoff_seconds = 2.0
+repetitions = 1
+require_verified = true
+
+[[models]]
+alias = "gpt-6-luna"
+model_id = "gpt-6-luna"
+provider = "openai-responses"
+base_url = "https://api.openai.com/v1"
+api_key_env = "OPENAI_API_KEY"
+reasoning_effort = "low"
+max_tokens = 512
+timeout = 120.0
+
+[[models]]
+alias = "gpt-6.1-sol"
+model_id = "gpt-6.1-sol"
+provider = "openai-responses"
+base_url = "https://api.openai.com/v1"
+api_key_env = "OPENAI_API_KEY"
+reasoning_effort = "low"
+max_tokens = 512
+timeout = 120.0
+
+[[models]]
+alias = "gpt-6-astra"
+model_id = "gpt-6-astra"
+provider = "openai-responses"
+base_url = "https://api.openai.com/v1"
+api_key_env = "OPENAI_API_KEY"
+reasoning_effort = "low"
+max_tokens = 512
+timeout = 120.0

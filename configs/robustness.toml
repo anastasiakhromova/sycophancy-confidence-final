@@ -1,0 +1,24 @@
+# User-selected OpenAI Responses API models; no sampling overrides or external tools.
+dataset_path = "../data/raw/claims_main.csv"
+run_dir = "../data/runs/robustness"
+prerequisite_run_dir = "../data/runs/main"
+budget_path = "../data/runs/budget.json"
+budget_limit_usd = 8.0
+seed = 20261007
+max_requests = 1350
+retries = 2
+backoff_seconds = 2.0
+repetitions = 3
+require_verified = true
+sample_claims = 50
+# Three independent repetitions at provider defaults; temperature intentionally omitted.
+
+[[models]]
+alias = "gpt-6-luna"
+model_id = "gpt-6-luna"
+provider = "openai-responses"
+base_url = "https://api.openai.com/v1"
+api_key_env = "OPENAI_API_KEY"
+reasoning_effort = "low"
+max_tokens = 512
+timeout = 120.0

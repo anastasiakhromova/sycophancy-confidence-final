@@ -1,0 +1,21 @@
+# Separate extension: the original ledger and frozen study are read-only.
+claims_path = "../data/challenge_v1/claims.jsonl"
+cues_path = "../data/challenge_v1/cues.json"
+protocol_path = "../data/challenge_v1/protocol.md"
+run_dir = "../data/challenge_v1/run"
+budget_path = "../data/challenge_v1/run/budget.json"
+seed = 20261024
+max_requests = 780
+retries = 1
+backoff_seconds = 2.0
+budget_limit_usd = 0.50
+
+[model]
+alias = "gpt-6-luna"
+model_id = "gpt-6-luna"
+provider = "openai-responses"
+base_url = "https://api.openai.com/v1"
+api_key_env = "OPENAI_API_KEY"
+reasoning_effort = "low"
+max_tokens = 512
+timeout = 90.0
