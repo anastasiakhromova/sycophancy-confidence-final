@@ -1,0 +1,4 @@
+model,n_responses,priced_responses,observed_cost_usd,mean_latency_seconds,input_tokens,input_tokens_missing,output_tokens,output_tokens_missing,reasoning_tokens,reasoning_tokens_missing
+gpt-6-luna,450,450,0.0101772,1.8232280519974624,18282,0,16698,0,1208,0
+gpt-6.1-sol,450,450,0.224214,2.6362151386637964,18282,0,18765,0,0,0
+gpt-6-astra,450,450,1.11822,2.5648273011118485,18282,0,18708,0,0,0

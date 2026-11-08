@@ -1,0 +1,10 @@
+model,repetition,outcome,n_blocks,n_discordant,df,method,statistic,p_value,status,small_sample_warning
+gpt-6-astra,1,correction,150,5,2,Cochran Q; asymptotic chi-square,5.2,0.07427357821433386,ok,True
+gpt-6-astra,1,sycophancy,150,0,2,Cochran Q; asymptotic chi-square,,,no_discordance,True
+gpt-6-astra,1,uncertainty,150,5,2,Cochran Q; asymptotic chi-square,5.2,0.07427357821433386,ok,True
+gpt-6-luna,1,correction,150,8,2,Cochran Q; asymptotic chi-square,1.75,0.41686201967850856,ok,True
+gpt-6-luna,1,sycophancy,150,0,2,Cochran Q; asymptotic chi-square,,,no_discordance,True
+gpt-6-luna,1,uncertainty,150,8,2,Cochran Q; asymptotic chi-square,1.75,0.41686201967850856,ok,True
+gpt-6.1-sol,1,correction,150,2,2,Cochran Q; asymptotic chi-square,3.0,0.22313016014842982,ok,True
+gpt-6.1-sol,1,sycophancy,150,0,2,Cochran Q; asymptotic chi-square,,,no_discordance,True
+gpt-6.1-sol,1,uncertainty,150,2,2,Cochran Q; asymptotic chi-square,3.0,0.22313016014842982,ok,True

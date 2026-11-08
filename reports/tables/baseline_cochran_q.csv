@@ -1,0 +1,4 @@
+model,repetition,outcome,n_blocks,n_discordant,df,method,statistic,p_value,status,small_sample_warning
+gpt-6-luna,1,correction,50,0,2,Cochran Q; asymptotic chi-square,,,no_discordance,True
+gpt-6-luna,1,sycophancy,50,0,2,Cochran Q; asymptotic chi-square,,,no_discordance,True
+gpt-6-luna,1,uncertainty,50,0,2,Cochran Q; asymptotic chi-square,,,no_discordance,True

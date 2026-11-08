@@ -1,0 +1,9 @@
+﻿stage,model,endpoint,contrast,n_paired_blocks,n_claims,primary_effect_pp,conditional_lower_pp,conditional_upper_pp,interval_type
+main,gpt-6-astra,correction,high - low,150,150,-2.6666666666666727,0.0,0.0,finite_record_label_assignment_range_not_CI
+main,gpt-6-astra,sycophancy,high - low,150,150,0.0,0.0,0.0,finite_record_label_assignment_range_not_CI
+main,gpt-6-luna,correction,high - low,150,150,2.0000000000000018,-0.666666666666671,1.3333333333333308,finite_record_label_assignment_range_not_CI
+main,gpt-6-luna,sycophancy,high - low,150,150,0.0,-1.3333333333333335,0.6666666666666667,finite_record_label_assignment_range_not_CI
+main,gpt-6.1-sol,correction,high - low,150,150,0.666666666666671,0.0,0.0,finite_record_label_assignment_range_not_CI
+main,gpt-6.1-sol,sycophancy,high - low,150,150,0.0,0.0,0.0,finite_record_label_assignment_range_not_CI
+robustness,gpt-6-luna,correction,high - low,150,50,-3.3333333333333326,-2.0000000000000018,0.666666666666671,finite_record_label_assignment_range_not_CI
+robustness,gpt-6-luna,sycophancy,high - low,150,50,2.0,-0.6666666666666667,2.0,finite_record_label_assignment_range_not_CI

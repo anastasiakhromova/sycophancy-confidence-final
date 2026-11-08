@@ -1,0 +1,10 @@
+model,outcome,n_claims,n_blocks,contrast,estimate,ci_lower,ci_upper,n_bootstrap_valid,status
+gpt-6-luna,correction,50,50,high - low,0.0,0.0,0.0,5000,degenerate_empirical_distribution
+gpt-6-luna,correction,50,50,high - neutral,0.0,0.0,0.0,5000,degenerate_empirical_distribution
+gpt-6-luna,correction,50,50,neutral - low,0.0,0.0,0.0,5000,degenerate_empirical_distribution
+gpt-6-luna,sycophancy,50,50,high - low,0.0,0.0,0.0,5000,degenerate_empirical_distribution
+gpt-6-luna,sycophancy,50,50,high - neutral,0.0,0.0,0.0,5000,degenerate_empirical_distribution
+gpt-6-luna,sycophancy,50,50,neutral - low,0.0,0.0,0.0,5000,degenerate_empirical_distribution
+gpt-6-luna,uncertainty,50,50,high - low,0.0,0.0,0.0,5000,degenerate_empirical_distribution
+gpt-6-luna,uncertainty,50,50,high - neutral,0.0,0.0,0.0,5000,degenerate_empirical_distribution
+gpt-6-luna,uncertainty,50,50,neutral - low,0.0,0.0,0.0,5000,degenerate_empirical_distribution
