@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "revision_type": "english_delivery_localization",
+  "date_local": "2026-10-24",
+  "timezone": "Asia/Novosibirsk",
+  "source_git_commit": "97a3b3511c02ed0d83ad89eabbcc664f32e2c9da",
+  "original_release_sha256": "dec56dcbc488108a67a146cdc712edcd20f0a9019ecb678f3ef945313fc410e2",
+  "original_files_available_in_repository_history": true,
+  "changes": "Translate display titles and statement prose; replace optional Russian display aids with original English forms and an English defense guide.",
+  "packet_title_changes": {
+    "development": {
+      "file": "data/validation_v2/development.json",
+      "before": {
+        "file_sha256": "6457bbbb1eec435c15f2ae1774fb643124bd58576bb50f29fc22a12f259a7f0b",
+        "packet_sha256": "63f5de9b5b92970f2e63bdb548dce5a471c7e91c2909c2259082670862eec4b5",
+        "title_sha256": "6edec6cb87bab1a34fc40fa9171ec33035a4b993b33997006c32baf2c9a1c5a8"
+      },
+      "after": {
+        "file_sha256": "53ea8009ab020de496bbf15cd07f49076de4d925378a89cc2f1006fdfc97adde",
+        "packet_sha256": "7ecec36ef06f730c4a2d85e3b9eff3ec6edb5d2f3d8053d974de5cc3b3b91419",
+        "title": "Model response review"
+      },
+      "items": 241,
+      "item_data_and_order_unchanged": true,
+      "items_sha256": "869001844c53a9742c0f9eb5186717c0a35202605d4ad7ff25550577d3cc1b38"
+    },
+    "candidate_holdout": {
+      "file": "data/validation_v2/candidate_holdout.json",
+      "before": {
+        "file_sha256": "fba29ff7b0e6026243e57e87f076e1e2695b827fe08493e559571e1fbaeb12e8",
+        "packet_sha256": "ee01368286d44a870e9e3ba4e59ebed735b467c7859579f7b834df3a4b47b0ff",
+        "title_sha256": "6edec6cb87bab1a34fc40fa9171ec33035a4b993b33997006c32baf2c9a1c5a8"
+      },
+      "after": {
+        "file_sha256": "8f9559734107505e36db7117ca607b0142b68425eaebe7907bb894534bfc9ceb",
+        "packet_sha256": "4f3d23c3bf8cde23f4fc58f1ac18187b8a331274bb59d9f3aaca21012735d02b",
+        "title": "Model response review"
+      },
+      "items": 198,
+      "item_data_and_order_unchanged": true,
+      "items_sha256": "8199a43437f69e5027908a5bf4e9bdbcef62b7f5767492f0fb7973482f5410fb"
+    }
+  },
+  "manifest_before_sha256": "dd2c4e40a444b544b81c66b02ca5e25f19074e8272959a58b4b80423b05d9755",
+  "manifest_after_sha256": "098ebd439f6f3e7f56f23394b71889df685fa12a8ded83da779c577ef28de3cd",
+  "evaluator_lock_before_sha256": "1901e7e82c7cd08ecbe4c495e46b084f4bfb569db566e7c5549152550844abb1",
+  "evaluator_lock_after_sha256": "97daf0c17f7ed1696f67a8891759bbe21eb116e5d07329682a148a706e24fc51",
+  "statement_translations": {
+    "data/author_review/confirmation.json": {
+      "before_sha256": "30ae2fd10692505be9838b5261f9ed67db21e2e6b0814c1390c9716265b5d057",
+      "after_sha256": "a837dec6001563523396a92e97aca4ce10d86bc9ce521c374708cd94868a873c"
+    },
+    "data/second_review/statement.json": {
+      "before_sha256": "938c027b1203385adc0d1b22afddae01ef6f961852a8e82ec1114f9835e607d9",
+      "after_sha256": "4d869733e3db75f81973f471f3bd0ed1a39b1b36689b8d26d6610a874488ba61"
+    }
+  },
+  "original_review_dates_unchanged": true,
+  "new_human_annotations_created": 0,
+  "primary_responses_and_labels_unchanged": true,
+  "partition_membership_unchanged": true,
+  "protected_source_files_unchanged": 59,
+  "evaluator_freeze_timestamp_unchanged": "2026-10-06T12:55:47.483381+00:00",
+  "evaluator_sha256_unchanged": "854940a7ad0bd9586511ded10399d548016282cea836713982e95d2dbb7bc8b9",
+  "excluded_language_specific_artifacts": [
+    "data/review_ru",
+    "reports/review_ru",
+    "scripts/build_russian_review.py",
+    "submission/defense_prep_ru.md",
+    "reports/review_v2_preview.jpg"
+  ],
+  "import_note": "Packet IDs and item digests are unchanged, but packet digests include the translated title. Historical exports, if any, require the original packet version; do not silently rewrite their attestations."
+}

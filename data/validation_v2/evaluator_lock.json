@@ -1,0 +1,15 @@
+{
+  "aliases_sha256": "751f40f172351e05c98773a5ff67cb32c21190eebcd211bd61e4e5464d491cf5",
+  "coordinator_manifest_sha256": "098ebd439f6f3e7f56f23394b71889df685fa12a8ded83da779c577ef28de3cd",
+  "evaluator_sha256": "854940a7ad0bd9586511ded10399d548016282cea836713982e95d2dbb7bc8b9",
+  "frozen_utc": "2026-10-06T12:55:47.483381+00:00",
+  "note": "Evaluator code was frozen before its first v2 corpus/candidate-holdout evaluation. Only review packet display titles were translated on 2026-10-24; the resulting packet and manifest digests were updated explicitly. Item text, record hashes, ordering, partitions, labels, evaluator code and original freeze time are unchanged. Historical exposure limitations remain.",
+  "packet_sha256": {
+    "candidate_holdout": "4f3d23c3bf8cde23f4fc58f1ac18187b8a331274bb59d9f3aaca21012735d02b",
+    "development": "7ecec36ef06f730c4a2d85e3b9eff3ec6edb5d2f3d8053d974de5cc3b3b91419"
+  },
+  "primary_evaluator_sha256": "a5ad680f2ae3dc9a2c2673f6ea590917855709ccebdbab424cecb432ffddabd6",
+  "source_file": "src/sycophancy/evaluation_v2.py",
+  "packet_metadata_revision_date_local": "2026-10-24",
+  "packet_metadata_revision": "data/validation_v2/language_revision.json"
+}
