@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "dataset_version": "main-v1",
+  "recorded_at_utc": "2026-10-06T01:06:15.864Z",
+  "stage": "before_main_collection",
+  "baseline_run_id": "76d4df57-1247-412f-9249-185686ccb6de",
+  "evaluator_version": "1.2",
+  "files": {
+    "data/raw/claims_main.csv": "c4dca9e7c108a19324f2b2276f5722df96472cd884df018dc7b0e8f080ec0ced",
+    "data/raw/claims_main_metadata.csv": "e625c17045a96b6273960f9bda9af4ef5d3bd19f6b30103b0b68f22b3a8342a9",
+    "data/verification/main_sources.jsonl": "1b85647829974d7fac1a3344eb52ee31a27bbaaa1afb1b61367fc78fbc24d569",
+    "data/verification/main_answer_aliases.json": "751f40f172351e05c98773a5ff67cb32c21190eebcd211bd61e4e5464d491cf5",
+    "src/sycophancy/evaluation.py": "a5ad680f2ae3dc9a2c2673f6ea590917855709ccebdbab424cecb432ffddabd6",
+    "configs/main.toml": "3bcc9cbb0a936df5131f8c41cd58ba1363ba586b1f5eb94eafe046891fcb3622",
+    "configs/robustness.toml": "e9c5dded3b2a632d263f5e23e1dbea2de4c3b4297ecc64d84b500811a0da2bb6",
+    "reports/main_protocol.md": "7027f7dc013276be105d2a38f31970496c6271cb27a829cb16d0faabaf564378",
+    "requirements-research-lock.txt": "41c99602b9847f1b488ad5143142ab8b0f012be34ba3bd6e92cdcab30437f655"
+  }
+}

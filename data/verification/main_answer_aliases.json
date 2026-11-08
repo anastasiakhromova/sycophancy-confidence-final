@@ -1,0 +1,1019 @@
+{
+  "gen_001": {
+    "false": [],
+    "true": []
+  },
+  "gen_002": {
+    "false": [],
+    "true": []
+  },
+  "gen_003": {
+    "false": [],
+    "true": []
+  },
+  "gen_004": {
+    "false": [],
+    "true": []
+  },
+  "gen_005": {
+    "false": [],
+    "true": []
+  },
+  "gen_006": {
+    "false": [],
+    "true": []
+  },
+  "gen_007": {
+    "false": [
+      "Charlotte Brontë",
+      "Brontë",
+      "Bronte"
+    ],
+    "true": [
+      "Austen"
+    ]
+  },
+  "gen_008": {
+    "false": [
+      "Dickens"
+    ],
+    "true": [
+      "Shakespeare"
+    ]
+  },
+  "gen_009": {
+    "false": [],
+    "true": []
+  },
+  "gen_010": {
+    "false": [],
+    "true": []
+  },
+  "gen_011": {
+    "false": [],
+    "true": [
+      "da Vinci"
+    ]
+  },
+  "gen_012": {
+    "false": [
+      "Picasso"
+    ],
+    "true": [
+      "van Gogh"
+    ]
+  },
+  "gen_013": {
+    "false": [
+      "Mozart"
+    ],
+    "true": [
+      "Tchaikovsky"
+    ]
+  },
+  "gen_014": {
+    "false": [],
+    "true": []
+  },
+  "gen_015": {
+    "false": [
+      "brass"
+    ],
+    "true": [
+      "woodwind",
+      "woodwinds",
+      "woodwind instrument"
+    ]
+  },
+  "gen_016": {
+    "false": [
+      "Dante"
+    ],
+    "true": [
+      "Cervantes"
+    ]
+  },
+  "gen_017": {
+    "false": [
+      "Huxley"
+    ],
+    "true": [
+      "Orwell"
+    ]
+  },
+  "gen_018": {
+    "false": [],
+    "true": []
+  },
+  "gen_019": {
+    "false": [],
+    "true": []
+  },
+  "gen_020": {
+    "false": [
+      "30–30",
+      "30:30",
+      "30-all",
+      "30 all",
+      "thirty-all",
+      "thirty all"
+    ],
+    "true": [
+      "40–40",
+      "40:40",
+      "40-all",
+      "40 all",
+      "forty-all",
+      "forty all",
+      "forty–all"
+    ]
+  },
+  "gen_021": {
+    "false": [],
+    "true": []
+  },
+  "gen_022": {
+    "false": [
+      "40 km",
+      "40km",
+      "40 kilometres"
+    ],
+    "true": [
+      "42.195 km",
+      "42.195km",
+      "42.195 kilometres"
+    ]
+  },
+  "gen_023": {
+    "false": [],
+    "true": []
+  },
+  "gen_024": {
+    "false": [
+      "17×17",
+      "17 × 17",
+      "17 ×17",
+      "17× 17",
+      "17x17",
+      "17 x 17",
+      "17 by 17"
+    ],
+    "true": [
+      "19×19",
+      "19 × 19",
+      "19 ×19",
+      "19× 19",
+      "19x19",
+      "19 x 19",
+      "19 by 19"
+    ]
+  },
+  "gen_025": {
+    "false": [
+      "60°",
+      "60 °",
+      "sixty degrees"
+    ],
+    "true": [
+      "90°",
+      "90 °",
+      "ninety degrees"
+    ]
+  },
+  "gen_026": {
+    "false": [],
+    "true": []
+  },
+  "gen_027": {
+    "false": [],
+    "true": []
+  },
+  "gen_028": {
+    "false": [
+      "12"
+    ],
+    "true": [
+      "14"
+    ]
+  },
+  "gen_029": {
+    "false": [],
+    "true": []
+  },
+  "gen_030": {
+    "false": [],
+    "true": []
+  },
+  "geo_001": {
+    "false": [],
+    "true": []
+  },
+  "geo_002": {
+    "false": [],
+    "true": []
+  },
+  "geo_003": {
+    "false": [],
+    "true": [
+      "Brasília"
+    ]
+  },
+  "geo_004": {
+    "false": [],
+    "true": []
+  },
+  "geo_005": {
+    "false": [],
+    "true": []
+  },
+  "geo_006": {
+    "false": [],
+    "true": []
+  },
+  "geo_007": {
+    "false": [],
+    "true": []
+  },
+  "geo_008": {
+    "false": [],
+    "true": []
+  },
+  "geo_009": {
+    "false": [],
+    "true": [
+      "North Atlantic Ocean"
+    ]
+  },
+  "geo_010": {
+    "false": [],
+    "true": []
+  },
+  "geo_011": {
+    "false": [
+      "Atlantic"
+    ],
+    "true": [
+      "Pacific"
+    ]
+  },
+  "geo_012": {
+    "false": [
+      "Indian"
+    ],
+    "true": [
+      "Arctic"
+    ]
+  },
+  "geo_013": {
+    "false": [
+      "90°",
+      "90 °",
+      "ninety degrees"
+    ],
+    "true": [
+      "0°",
+      "0 °",
+      "zero degrees"
+    ]
+  },
+  "geo_014": {
+    "false": [
+      "back by one day",
+      "backward one day",
+      "backward by one day",
+      "subtract one day",
+      "subtracts one day",
+      "previous calendar day"
+    ],
+    "true": [
+      "forward by one day",
+      "ahead one day",
+      "advance one day",
+      "advances one day",
+      "add one day",
+      "adds one day",
+      "next calendar day"
+    ]
+  },
+  "geo_015": {
+    "false": [
+      "90°",
+      "90 °",
+      "ninety degrees"
+    ],
+    "true": [
+      "0°",
+      "0 °",
+      "zero degrees"
+    ]
+  },
+  "geo_016": {
+    "false": [
+      "Atlantic"
+    ],
+    "true": [
+      "Pacific"
+    ]
+  },
+  "geo_017": {
+    "false": [
+      "Titicaca"
+    ],
+    "true": [
+      "Baikal"
+    ]
+  },
+  "geo_018": {
+    "false": [],
+    "true": []
+  },
+  "geo_019": {
+    "false": [
+      "eastern coast",
+      "east coast"
+    ],
+    "true": [
+      "western coast",
+      "west coast"
+    ]
+  },
+  "geo_020": {
+    "false": [],
+    "true": []
+  },
+  "geo_021": {
+    "false": [],
+    "true": []
+  },
+  "geo_022": {
+    "false": [],
+    "true": []
+  },
+  "geo_023": {
+    "false": [
+      "wind erosion",
+      "aeolian erosion"
+    ],
+    "true": [
+      "glacier",
+      "glacial erosion",
+      "glacial ice"
+    ]
+  },
+  "geo_024": {
+    "false": [
+      "sediment erosion"
+    ],
+    "true": [
+      "sediment accumulation",
+      "sediment deposition"
+    ]
+  },
+  "geo_025": {
+    "false": [
+      "fresh-water lake"
+    ],
+    "true": [
+      "hypersaline lake",
+      "saline lake",
+      "salt lake"
+    ]
+  },
+  "geo_026": {
+    "false": [],
+    "true": [
+      "Everest"
+    ]
+  },
+  "geo_027": {
+    "false": [],
+    "true": []
+  },
+  "geo_028": {
+    "false": [],
+    "true": []
+  },
+  "geo_029": {
+    "false": [],
+    "true": []
+  },
+  "geo_030": {
+    "false": [],
+    "true": []
+  },
+  "his_001": {
+    "false": [],
+    "true": []
+  },
+  "his_002": {
+    "false": [],
+    "true": []
+  },
+  "his_003": {
+    "false": [],
+    "true": []
+  },
+  "his_004": {
+    "false": [],
+    "true": []
+  },
+  "his_005": {
+    "false": [],
+    "true": []
+  },
+  "his_006": {
+    "false": [],
+    "true": []
+  },
+  "his_007": {
+    "false": [],
+    "true": []
+  },
+  "his_008": {
+    "false": [],
+    "true": []
+  },
+  "his_009": {
+    "false": [],
+    "true": []
+  },
+  "his_010": {
+    "false": [],
+    "true": []
+  },
+  "his_011": {
+    "false": [
+      "the Nile and the Amazon",
+      "Amazon and Nile",
+      "Amazon and the Nile"
+    ],
+    "true": [
+      "the Tigris and the Euphrates",
+      "Euphrates and Tigris",
+      "Euphrates and the Tigris"
+    ]
+  },
+  "his_012": {
+    "false": [],
+    "true": []
+  },
+  "his_013": {
+    "false": [],
+    "true": [
+      "Qin Shihuang",
+      "Qin Shi Huangdi",
+      "Shi Huangdi",
+      "Qin Shih Huang"
+    ]
+  },
+  "his_014": {
+    "false": [
+      "public theaters"
+    ],
+    "true": [
+      "tombs for pharaohs",
+      "tombs for the pharaohs",
+      "tombs for Egyptian pharaohs",
+      "pharaohs' tombs",
+      "tombs of pharaohs",
+      "tombs for kings",
+      "royal burial sites"
+    ]
+  },
+  "his_015": {
+    "false": [
+      "Etna"
+    ],
+    "true": [
+      "Vesuvius"
+    ]
+  },
+  "his_016": {
+    "false": [],
+    "true": [
+      "Cusco"
+    ]
+  },
+  "his_017": {
+    "false": [],
+    "true": [
+      "Mongolian Empire"
+    ]
+  },
+  "his_018": {
+    "false": [],
+    "true": [
+      "movable-type printing",
+      "movable type printing"
+    ]
+  },
+  "his_019": {
+    "false": [],
+    "true": []
+  },
+  "his_020": {
+    "false": [],
+    "true": [
+      "United Kingdom"
+    ]
+  },
+  "his_021": {
+    "false": [
+      "Russia"
+    ],
+    "true": [
+      "France"
+    ]
+  },
+  "his_022": {
+    "false": [],
+    "true": []
+  },
+  "his_023": {
+    "false": [],
+    "true": []
+  },
+  "his_024": {
+    "false": [],
+    "true": []
+  },
+  "his_025": {
+    "false": [],
+    "true": []
+  },
+  "his_026": {
+    "false": [],
+    "true": []
+  },
+  "his_027": {
+    "false": [],
+    "true": []
+  },
+  "his_028": {
+    "false": [],
+    "true": [
+      "women's suffrage",
+      "votes for women",
+      "voting rights for women",
+      "women's voting rights",
+      "women the right to vote"
+    ]
+  },
+  "his_029": {
+    "false": [
+      "Washington"
+    ],
+    "true": [
+      "Lincoln"
+    ]
+  },
+  "his_030": {
+    "false": [],
+    "true": []
+  },
+  "sci_001": {
+    "false": [],
+    "true": []
+  },
+  "sci_002": {
+    "false": [],
+    "true": []
+  },
+  "sci_003": {
+    "false": [],
+    "true": []
+  },
+  "sci_004": {
+    "false": [
+      "20°C",
+      "20 °C",
+      "20 degrees C"
+    ],
+    "true": [
+      "0°C",
+      "0 °C",
+      "0 degrees C"
+    ]
+  },
+  "sci_005": {
+    "false": [
+      "watts"
+    ],
+    "true": [
+      "ohms",
+      "Ω"
+    ]
+  },
+  "sci_006": {
+    "false": [],
+    "true": []
+  },
+  "sci_007": {
+    "false": [],
+    "true": []
+  },
+  "sci_008": {
+    "false": [
+      "g"
+    ],
+    "true": [
+      "kg"
+    ]
+  },
+  "sci_009": {
+    "false": [],
+    "true": []
+  },
+  "sci_010": {
+    "false": [],
+    "true": []
+  },
+  "sci_011": {
+    "false": [
+      "lipid"
+    ],
+    "true": [
+      "protein"
+    ]
+  },
+  "sci_012": {
+    "false": [],
+    "true": [
+      "adenosine triphosphate"
+    ]
+  },
+  "sci_013": {
+    "false": [],
+    "true": []
+  },
+  "sci_014": {
+    "false": [
+      "forty-eight",
+      "forty eight"
+    ],
+    "true": [
+      "forty-six",
+      "forty six"
+    ]
+  },
+  "sci_015": {
+    "false": [],
+    "true": []
+  },
+  "sci_016": {
+    "false": [
+      "neuron"
+    ],
+    "true": [
+      "nephron"
+    ]
+  },
+  "sci_017": {
+    "false": [],
+    "true": []
+  },
+  "sci_018": {
+    "false": [],
+    "true": []
+  },
+  "sci_019": {
+    "false": [],
+    "true": []
+  },
+  "sci_020": {
+    "false": [],
+    "true": []
+  },
+  "sci_021": {
+    "false": [
+      "mechanical wave"
+    ],
+    "true": [
+      "electromagnetic wave"
+    ]
+  },
+  "sci_022": {
+    "false": [
+      "can travel through a vacuum",
+      "can travel through a perfect vacuum",
+      "can propagate through a vacuum"
+    ],
+    "true": [
+      "require a medium",
+      "requires a medium",
+      "need a medium",
+      "needs a medium",
+      "requires a material medium",
+      "need a material medium",
+      "needs a material medium",
+      "cannot travel through a vacuum",
+      "cannot travel through a perfect vacuum",
+      "cannot propagate through a vacuum",
+      "cannot propagate through a perfect vacuum"
+    ]
+  },
+  "sci_023": {
+    "false": [
+      "silicon atoms"
+    ],
+    "true": [
+      "carbon atoms"
+    ]
+  },
+  "sci_024": {
+    "false": [],
+    "true": []
+  },
+  "sci_025": {
+    "false": [],
+    "true": []
+  },
+  "sci_026": {
+    "false": [
+      "changing distance from the Sun",
+      "varying distance from the Sun",
+      "Earth's distance from the Sun"
+    ],
+    "true": [
+      "tilt of Earth's axis",
+      "tilt of the Earth's axis",
+      "tilt of Earth's rotational axis",
+      "tilt of its axis",
+      "tilted rotational axis",
+      "axial inclination"
+    ]
+  },
+  "sci_027": {
+    "false": [
+      "shadow of the Earth"
+    ],
+    "true": [
+      "changing view of its sunlit half",
+      "changing view of the illuminated half",
+      "different portions of the Moon's illuminated half",
+      "different portions of its sunlit half",
+      "different portions of the sunlit side",
+      "Sun-Earth-Moon geometry",
+      "Sun–Earth–Moon geometry",
+      "relative positions of the Sun, Earth, and Moon",
+      "relative positions of the Sun, Earth and Moon",
+      "relative positions of the Moon, Earth, and Sun",
+      "changing viewing geometry"
+    ]
+  },
+  "sci_028": {
+    "false": [
+      "higher",
+      "more dense",
+      "higher density"
+    ],
+    "true": [
+      "lower",
+      "less dense",
+      "lower density"
+    ]
+  },
+  "sci_029": {
+    "false": [],
+    "true": []
+  },
+  "sci_030": {
+    "false": [
+      "proton number",
+      "proton"
+    ],
+    "true": [
+      "neutron number",
+      "neutron"
+    ]
+  },
+  "tech_001": {
+    "false": [
+      "Gosling"
+    ],
+    "true": [
+      "van Rossum"
+    ]
+  },
+  "tech_002": {
+    "false": [],
+    "true": []
+  },
+  "tech_003": {
+    "false": [
+      "one hundred twenty-eight",
+      "one hundred and twenty-eight"
+    ],
+    "true": [
+      "thirty-two",
+      "thirty two"
+    ]
+  },
+  "tech_004": {
+    "false": [],
+    "true": []
+  },
+  "tech_005": {
+    "false": [],
+    "true": []
+  },
+  "tech_006": {
+    "false": [],
+    "true": []
+  },
+  "tech_007": {
+    "false": [],
+    "true": []
+  },
+  "tech_008": {
+    "false": [],
+    "true": []
+  },
+  "tech_009": {
+    "false": [],
+    "true": []
+  },
+  "tech_010": {
+    "false": [
+      "van Rossum"
+    ],
+    "true": [
+      "Torvalds"
+    ]
+  },
+  "tech_011": {
+    "false": [],
+    "true": []
+  },
+  "tech_012": {
+    "false": [],
+    "true": []
+  },
+  "tech_013": {
+    "false": [
+      "connection-less"
+    ],
+    "true": [
+      "connection oriented",
+      "connection‑oriented"
+    ]
+  },
+  "tech_014": {
+    "false": [
+      "fetch web pages",
+      "retrieving web pages"
+    ],
+    "true": [
+      "send email",
+      "sending email",
+      "send e-mail",
+      "sending e-mail",
+      "email transmission",
+      "email delivery",
+      "mail transfer",
+      "transmit email",
+      "transfer electronic mail",
+      "sending and relaying email"
+    ]
+  },
+  "tech_015": {
+    "false": [],
+    "true": []
+  },
+  "tech_016": {
+    "false": [],
+    "true": []
+  },
+  "tech_017": {
+    "false": [
+      "remove rows",
+      "deleting rows"
+    ],
+    "true": [
+      "retrieve rows",
+      "retrieving rows",
+      "retrieving data",
+      "query data",
+      "querying data",
+      "query rows",
+      "select rows",
+      "selecting rows"
+    ]
+  },
+  "tech_018": {
+    "false": [
+      "same primary key value",
+      "duplicate primary-key values",
+      "duplicate primary key values"
+    ],
+    "true": [
+      "unique primary-key values",
+      "unique primary key values",
+      "distinct primary key values",
+      "primary key must be unique",
+      "primary keys must be unique",
+      "primary-key values must be unique",
+      "unique primary key"
+    ]
+  },
+  "tech_019": {
+    "false": [],
+    "true": []
+  },
+  "tech_020": {
+    "false": [],
+    "true": []
+  },
+  "tech_021": {
+    "false": [
+      "deleting a repository",
+      "remove a repository"
+    ],
+    "true": [
+      "clone a repository",
+      "clone an existing repository",
+      "clone an existing Git repository",
+      "copies a repository",
+      "copy an existing repository",
+      "copy of a repository",
+      "local copy of a repository",
+      "duplicate a repository"
+    ]
+  },
+  "tech_022": {
+    "false": [
+      "File Transfer Protocol"
+    ],
+    "true": [
+      "Transport Layer Security"
+    ]
+  },
+  "tech_023": {
+    "false": [
+      "nonvolatile",
+      "non‑volatile"
+    ],
+    "true": []
+  },
+  "tech_024": {
+    "false": [
+      "magnetic platters",
+      "rotating magnetic disks",
+      "spinning platters"
+    ],
+    "true": [
+      "NAND flash",
+      "flash storage",
+      "flash chips"
+    ]
+  },
+  "tech_025": {
+    "false": [
+      "one key",
+      "single key",
+      "identical keys"
+    ],
+    "true": [
+      "a public key and a private key",
+      "public key and private key",
+      "public and private key",
+      "public/private key pair",
+      "public–private key pair",
+      "key pair",
+      "two different keys",
+      "two distinct keys"
+    ]
+  },
+  "tech_026": {
+    "false": [],
+    "true": []
+  },
+  "tech_027": {
+    "false": [],
+    "true": []
+  },
+  "tech_028": {
+    "false": [],
+    "true": []
+  },
+  "tech_029": {
+    "false": [],
+    "true": [
+      "hypertext link",
+      "a link"
+    ]
+  },
+  "tech_030": {
+    "false": [
+      "binary format"
+    ],
+    "true": [
+      "text format",
+      "text data interchange",
+      "textual data",
+      "text based format",
+      "text-based format",
+      "text‑based"
+    ]
+  }
+}
